@@ -28,21 +28,38 @@ jobs:
         run: pytest
 
   eval:
-    # Optional: only runs when an API key is present as a repo secret.
+    # Optional: later steps run only when an API key is present as a repo secret.
+    # Presence is checked at step level (job-level if cannot use secrets).
     # Safe to skip on a fork or before you add a key.
     needs: lint-and-test
-    if: github.event_name == 'push' && (secrets.OPENAI_API_KEY != '' || secrets.AZURE_OPENAI_API_KEY != '' || secrets.ANTHROPIC_API_KEY != '')
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
+      - name: Check for API key
+        id: keys
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$OPENAI_API_KEY" ] || [ -n "$AZURE_OPENAI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "has_key=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_key=false" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v4
+        if: steps.keys.outputs.has_key == 'true'
       - uses: actions/setup-python@v5
+        if: steps.keys.outputs.has_key == 'true'
         with:
           python-version: "3.12"
       - name: Install
+        if: steps.keys.outputs.has_key == 'true'
         run: |
           python -m pip install --upgrade pip
           pip install -e ".[dev,llm]"
       - name: Run evals
+        if: steps.keys.outputs.has_key == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
@@ -52,7 +69,7 @@ jobs:
         run: python -m shopping_agent.evals.runner --agent real
       - name: Upload eval report
         uses: actions/upload-artifact@v4
-        if: always()
+        if: always() && steps.keys.outputs.has_key == 'true'
         with:
           name: eval-results
           path: evals/results/
