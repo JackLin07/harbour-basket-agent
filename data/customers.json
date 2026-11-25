@@ -1,0 +1,122 @@
+{
+  "dataset": "harbour-basket-synthetic",
+  "notice": "SYNTHETIC DATA ONLY. This catalogue is entirely fictional and was created for a portfolio demo. It is not real supermarket data, does not use real retailer product names or prices, and is not affiliated with any grocery chain.",
+  "currency": "AUD",
+  "locale": "en-AU",
+  "generated_for": "Portfolio demo. Not real retailer data.",
+  "count": 8,
+  "customers": [
+    {
+      "id": "CUST-1001",
+      "name": "Maya Chen",
+      "email": "maya.chen@example.com",
+      "suburb": "Hawthorn East",
+      "state": "VIC",
+      "postcode": "3123",
+      "dietary_preferences": [
+        "pescatarian"
+      ],
+      "allergens_to_avoid": [
+        "peanuts"
+      ],
+      "default_address": "14 Auburn Road, Hawthorn East VIC 3123"
+    },
+    {
+      "id": "CUST-1002",
+      "name": "James O'Connor",
+      "email": "james.oconnor@example.com",
+      "suburb": "Brunswick",
+      "state": "VIC",
+      "postcode": "3056",
+      "dietary_preferences": [],
+      "allergens_to_avoid": [],
+      "default_address": "88 Lygon Street, Brunswick VIC 3056"
+    },
+    {
+      "id": "CUST-1003",
+      "name": "Priya Nair",
+      "email": "priya.nair@example.com",
+      "suburb": "Box Hill",
+      "state": "VIC",
+      "postcode": "3128",
+      "dietary_preferences": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens_to_avoid": [
+        "gluten"
+      ],
+      "default_address": "3 Whitehorse Road, Box Hill VIC 3128"
+    },
+    {
+      "id": "CUST-1004",
+      "name": "Liam Nguyen",
+      "email": "liam.nguyen@example.com",
+      "suburb": "Richmond",
+      "state": "VIC",
+      "postcode": "3121",
+      "dietary_preferences": [
+        "vegan"
+      ],
+      "allergens_to_avoid": [],
+      "default_address": "22 Bridge Road, Richmond VIC 3121"
+    },
+    {
+      "id": "CUST-1005",
+      "name": "Sofia Rossi",
+      "email": "sofia.rossi@example.com",
+      "suburb": "Carlton",
+      "state": "VIC",
+      "postcode": "3053",
+      "dietary_preferences": [],
+      "allergens_to_avoid": [
+        "tree-nuts",
+        "peanuts"
+      ],
+      "default_address": "9 Faraday Street, Carlton VIC 3053"
+    },
+    {
+      "id": "CUST-1006",
+      "name": "Daniel Wright",
+      "email": "daniel.wright@example.com",
+      "suburb": "Footscray",
+      "state": "VIC",
+      "postcode": "3011",
+      "dietary_preferences": [
+        "halal"
+      ],
+      "allergens_to_avoid": [
+        "shellfish"
+      ],
+      "default_address": "40 Barkly Street, Footscray VIC 3011"
+    },
+    {
+      "id": "CUST-1007",
+      "name": "Amelia Burke",
+      "email": "amelia.burke@example.com",
+      "suburb": "St Kilda",
+      "state": "VIC",
+      "postcode": "3182",
+      "dietary_preferences": [
+        "lactose-free"
+      ],
+      "allergens_to_avoid": [
+        "milk"
+      ],
+      "default_address": "17 Acland Street, St Kilda VIC 3182"
+    },
+    {
+      "id": "CUST-1008",
+      "name": "Noah Patel",
+      "email": "noah.patel@example.com",
+      "suburb": "Glen Waverley",
+      "state": "VIC",
+      "postcode": "3150",
+      "dietary_preferences": [],
+      "allergens_to_avoid": [
+        "sesame"
+      ],
+      "default_address": "55 Kingsway, Glen Waverley VIC 3150"
+    }
+  ]
+}

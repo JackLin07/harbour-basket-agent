@@ -1,0 +1,680 @@
+{
+  "dataset": "harbour-basket-synthetic",
+  "notice": "SYNTHETIC DATA ONLY. This catalogue is entirely fictional and was created for a portfolio demo. It is not real supermarket data, does not use real retailer product names or prices, and is not affiliated with any grocery chain.",
+  "currency": "AUD",
+  "locale": "en-AU",
+  "generated_for": "Portfolio demo. Not real retailer data.",
+  "count": 16,
+  "orders": [
+    {
+      "id": "ORD-5001",
+      "customer_id": "CUST-1001",
+      "status": "delivered",
+      "placed_at": "2026-11-10T09:15:00+11:00",
+      "delivered_at": "2026-11-10T16:40:00+11:00",
+      "delivery_window": "3:00 pm \u2013 5:00 pm",
+      "address": "14 Auburn Road, Hawthorn East VIC 3123",
+      "items": [
+        {
+          "product_id": "HB-1002",
+          "name": "Cavendish Bananas",
+          "unit_price_aud": 3.9,
+          "quantity": 1,
+          "line_total_aud": 3.9
+        },
+        {
+          "product_id": "HB-3001",
+          "name": "Full Cream Milk",
+          "unit_price_aud": 3.4,
+          "quantity": 1,
+          "line_total_aud": 3.4
+        },
+        {
+          "product_id": "HB-4003",
+          "name": "Sourdough Cob",
+          "unit_price_aud": 6.5,
+          "quantity": 1,
+          "line_total_aud": 6.5
+        },
+        {
+          "product_id": "HB-2009",
+          "name": "Atlantic Salmon Fillet",
+          "unit_price_aud": 14.0,
+          "quantity": 2,
+          "line_total_aud": 28.0
+        }
+      ],
+      "notes": "Left at the side gate as requested.",
+      "substitution_preference": "allow-similar",
+      "subtotal_aud": 41.8,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 50.8
+    },
+    {
+      "id": "ORD-5002",
+      "customer_id": "CUST-1001",
+      "status": "in_transit",
+      "placed_at": "2026-11-24T18:05:00+11:00",
+      "delivered_at": null,
+      "delivery_window": "6:00 pm \u2013 8:00 pm, 25 Nov 2026",
+      "address": "14 Auburn Road, Hawthorn East VIC 3123",
+      "items": [
+        {
+          "product_id": "HB-1102",
+          "name": "Baby Spinach",
+          "unit_price_aud": 3.8,
+          "quantity": 2,
+          "line_total_aud": 7.6
+        },
+        {
+          "product_id": "HB-3006",
+          "name": "Greek Style Yoghurt",
+          "unit_price_aud": 6.5,
+          "quantity": 1,
+          "line_total_aud": 6.5
+        },
+        {
+          "product_id": "HB-5012",
+          "name": "Tuna in Springwater",
+          "unit_price_aud": 2.2,
+          "quantity": 3,
+          "line_total_aud": 6.6
+        },
+        {
+          "product_id": "HB-8004",
+          "name": "Orange Juice Pulp Free",
+          "unit_price_aud": 4.5,
+          "quantity": 1,
+          "line_total_aud": 4.5
+        }
+      ],
+      "notes": null,
+      "substitution_preference": "contact-me",
+      "subtotal_aud": 25.2,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 34.2
+    },
+    {
+      "id": "ORD-5003",
+      "customer_id": "CUST-1001",
+      "status": "missing_item",
+      "placed_at": "2026-11-18T11:20:00+11:00",
+      "delivered_at": "2026-11-18T17:10:00+11:00",
+      "delivery_window": "5:00 pm \u2013 7:00 pm",
+      "address": "14 Auburn Road, Hawthorn East VIC 3123",
+      "items": [
+        {
+          "product_id": "HB-9401",
+          "name": "Hot Roast Chicken",
+          "unit_price_aud": 12.0,
+          "quantity": 1,
+          "line_total_aud": 12.0
+        },
+        {
+          "product_id": "HB-1103",
+          "name": "Iceberg Lettuce",
+          "unit_price_aud": 2.7,
+          "quantity": 1,
+          "line_total_aud": 2.7
+        },
+        {
+          "product_id": "HB-7001",
+          "name": "Salted Potato Crisps",
+          "unit_price_aud": 3.5,
+          "quantity": 2,
+          "line_total_aud": 7.0
+        },
+        {
+          "product_id": "HB-3008",
+          "name": "Salted Butter",
+          "unit_price_aud": 6.2,
+          "quantity": 1,
+          "line_total_aud": 6.2
+        }
+      ],
+      "missing_product_ids": [
+        "HB-3008"
+      ],
+      "notes": "Customer reported the salted butter (HB-3008) was missing from the delivery.",
+      "substitution_preference": "allow-similar",
+      "subtotal_aud": 27.9,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 36.9
+    },
+    {
+      "id": "ORD-5004",
+      "customer_id": "CUST-1002",
+      "status": "cancelled",
+      "placed_at": "2026-11-12T08:00:00+11:00",
+      "delivered_at": null,
+      "cancelled_at": "2026-11-12T09:10:00+11:00",
+      "delivery_window": "12:00 pm \u2013 2:00 pm",
+      "address": "88 Lygon Street, Brunswick VIC 3056",
+      "items": [
+        {
+          "product_id": "HB-2004",
+          "name": "Beef Mince 5 Star",
+          "unit_price_aud": 12.0,
+          "quantity": 2,
+          "line_total_aud": 24.0
+        },
+        {
+          "product_id": "HB-1109",
+          "name": "Brushed Potatoes",
+          "unit_price_aud": 3.5,
+          "quantity": 1,
+          "line_total_aud": 3.5
+        },
+        {
+          "product_id": "HB-5001",
+          "name": "Spaghetti",
+          "unit_price_aud": 1.8,
+          "quantity": 2,
+          "line_total_aud": 3.6
+        }
+      ],
+      "notes": "Cancelled by customer more than 2 hours before the delivery window; full refund issued.",
+      "substitution_preference": "refund",
+      "subtotal_aud": 31.1,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 40.1
+    },
+    {
+      "id": "ORD-5005",
+      "customer_id": "CUST-1002",
+      "status": "delivered",
+      "placed_at": "2026-11-20T07:45:00+11:00",
+      "delivered_at": "2026-11-20T13:20:00+11:00",
+      "delivery_window": "12:00 pm \u2013 2:00 pm",
+      "address": "88 Lygon Street, Brunswick VIC 3056",
+      "items": [
+        {
+          "product_id": "HB-2004",
+          "name": "Beef Mince 5 Star",
+          "unit_price_aud": 12.0,
+          "quantity": 2,
+          "line_total_aud": 24.0
+        },
+        {
+          "product_id": "HB-1109",
+          "name": "Brushed Potatoes",
+          "unit_price_aud": 3.5,
+          "quantity": 1,
+          "line_total_aud": 3.5
+        },
+        {
+          "product_id": "HB-5001",
+          "name": "Spaghetti",
+          "unit_price_aud": 1.8,
+          "quantity": 2,
+          "line_total_aud": 3.6
+        },
+        {
+          "product_id": "HB-8006",
+          "name": "Cola Soft Drink",
+          "unit_price_aud": 2.2,
+          "quantity": 2,
+          "line_total_aud": 4.4
+        }
+      ],
+      "notes": null,
+      "substitution_preference": "allow-similar",
+      "subtotal_aud": 35.5,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 44.5
+    },
+    {
+      "id": "ORD-5006",
+      "customer_id": "CUST-1003",
+      "status": "delivered",
+      "placed_at": "2026-11-08T19:30:00+11:00",
+      "delivered_at": "2026-11-09T11:05:00+11:00",
+      "delivery_window": "10:00 am \u2013 12:00 pm",
+      "address": "3 Whitehorse Road, Box Hill VIC 3128",
+      "items": [
+        {
+          "product_id": "HB-4011",
+          "name": "Gluten Free Sandwich Loaf",
+          "unit_price_aud": 7.2,
+          "quantity": 1,
+          "line_total_aud": 7.2
+        },
+        {
+          "product_id": "HB-1102",
+          "name": "Baby Spinach",
+          "unit_price_aud": 3.8,
+          "quantity": 2,
+          "line_total_aud": 7.6
+        },
+        {
+          "product_id": "HB-5038",
+          "name": "Gluten Free Pasta Spirals",
+          "unit_price_aud": 3.8,
+          "quantity": 2,
+          "line_total_aud": 7.6
+        },
+        {
+          "product_id": "HB-3004",
+          "name": "Almond Milk Unsweetened",
+          "unit_price_aud": 3.5,
+          "quantity": 2,
+          "line_total_aud": 7.0
+        },
+        {
+          "product_id": "HB-1008",
+          "name": "Blueberries",
+          "unit_price_aud": 5.8,
+          "quantity": 1,
+          "line_total_aud": 5.8
+        }
+      ],
+      "notes": "Gluten-free household. Do not substitute gluten-containing items.",
+      "substitution_preference": "refund",
+      "subtotal_aud": 35.2,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 44.2
+    },
+    {
+      "id": "ORD-5007",
+      "customer_id": "CUST-1003",
+      "status": "in_transit",
+      "placed_at": "2026-11-24T21:00:00+11:00",
+      "delivered_at": null,
+      "delivery_window": "7:00 am \u2013 9:00 am, 26 Nov 2026",
+      "address": "3 Whitehorse Road, Box Hill VIC 3128",
+      "items": [
+        {
+          "product_id": "HB-3013",
+          "name": "Free Range Eggs 12 Pack",
+          "unit_price_aud": 7.8,
+          "quantity": 1,
+          "line_total_aud": 7.8
+        },
+        {
+          "product_id": "HB-1003",
+          "name": "Pink Lady Apples",
+          "unit_price_aud": 5.5,
+          "quantity": 1,
+          "line_total_aud": 5.5
+        },
+        {
+          "product_id": "HB-7003",
+          "name": "Sea Salt Rice Crackers",
+          "unit_price_aud": 2.8,
+          "quantity": 2,
+          "line_total_aud": 5.6
+        }
+      ],
+      "notes": null,
+      "substitution_preference": "contact-me",
+      "subtotal_aud": 18.9,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 27.9
+    },
+    {
+      "id": "ORD-5008",
+      "customer_id": "CUST-1004",
+      "status": "delivered",
+      "placed_at": "2026-11-15T10:00:00+11:00",
+      "delivered_at": "2026-11-15T16:15:00+11:00",
+      "delivery_window": "4:00 pm \u2013 6:00 pm",
+      "address": "22 Bridge Road, Richmond VIC 3121",
+      "items": [
+        {
+          "product_id": "HB-4003",
+          "name": "Sourdough Cob",
+          "unit_price_aud": 6.5,
+          "quantity": 2,
+          "line_total_aud": 13.0
+        },
+        {
+          "product_id": "HB-3005",
+          "name": "Oat Milk Barista",
+          "unit_price_aud": 3.8,
+          "quantity": 2,
+          "line_total_aud": 7.6
+        },
+        {
+          "product_id": "HB-5013",
+          "name": "Chickpeas",
+          "unit_price_aud": 1.3,
+          "quantity": 4,
+          "line_total_aud": 5.2
+        },
+        {
+          "product_id": "HB-9403",
+          "name": "Classic Hummus",
+          "unit_price_aud": 4.0,
+          "quantity": 1,
+          "line_total_aud": 4.0
+        },
+        {
+          "product_id": "HB-1102",
+          "name": "Baby Spinach",
+          "unit_price_aud": 3.8,
+          "quantity": 1,
+          "line_total_aud": 3.8
+        }
+      ],
+      "notes": "Vegan household. No dairy substitutions.",
+      "substitution_preference": "refund",
+      "subtotal_aud": 33.6,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 42.6
+    },
+    {
+      "id": "ORD-5009",
+      "customer_id": "CUST-1005",
+      "status": "missing_item",
+      "placed_at": "2026-11-19T14:10:00+11:00",
+      "delivered_at": "2026-11-19T19:50:00+11:00",
+      "delivery_window": "7:00 pm \u2013 9:00 pm",
+      "address": "9 Faraday Street, Carlton VIC 3053",
+      "items": [
+        {
+          "product_id": "HB-3013",
+          "name": "Free Range Eggs 12 Pack",
+          "unit_price_aud": 7.8,
+          "quantity": 1,
+          "line_total_aud": 7.8
+        },
+        {
+          "product_id": "HB-1007",
+          "name": "Strawberries",
+          "unit_price_aud": 4.5,
+          "quantity": 2,
+          "line_total_aud": 9.0
+        },
+        {
+          "product_id": "HB-7004",
+          "name": "Milk Chocolate Block",
+          "unit_price_aud": 5.0,
+          "quantity": 1,
+          "line_total_aud": 5.0
+        },
+        {
+          "product_id": "HB-5019",
+          "name": "Smooth Peanut Butter",
+          "unit_price_aud": 4.8,
+          "quantity": 1,
+          "line_total_aud": 4.8
+        }
+      ],
+      "missing_product_ids": [
+        "HB-1007"
+      ],
+      "notes": "One punnet of strawberries was missing. Nut-allergy household \u2014 never substitute nut products.",
+      "substitution_preference": "refund",
+      "subtotal_aud": 26.6,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 35.6
+    },
+    {
+      "id": "ORD-5010",
+      "customer_id": "CUST-1006",
+      "status": "delivered",
+      "placed_at": "2026-11-05T16:40:00+11:00",
+      "delivered_at": "2026-11-06T10:25:00+11:00",
+      "delivery_window": "9:00 am \u2013 11:00 am",
+      "address": "40 Barkly Street, Footscray VIC 3011",
+      "items": [
+        {
+          "product_id": "HB-2001",
+          "name": "Chicken Breast Fillets",
+          "unit_price_aud": 13.5,
+          "quantity": 2,
+          "line_total_aud": 27.0
+        },
+        {
+          "product_id": "HB-2003",
+          "name": "Whole Chicken",
+          "unit_price_aud": 9.8,
+          "quantity": 1,
+          "line_total_aud": 9.8
+        },
+        {
+          "product_id": "HB-5003",
+          "name": "Jasmine Rice",
+          "unit_price_aud": 4.5,
+          "quantity": 1,
+          "line_total_aud": 4.5
+        },
+        {
+          "product_id": "HB-1123",
+          "name": "Fresh Coriander",
+          "unit_price_aud": 2.5,
+          "quantity": 1,
+          "line_total_aud": 2.5
+        }
+      ],
+      "notes": "Please only substitute with halal-certified poultry.",
+      "substitution_preference": "allow-similar",
+      "subtotal_aud": 43.8,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 52.8
+    },
+    {
+      "id": "ORD-5011",
+      "customer_id": "CUST-1006",
+      "status": "cancelled",
+      "placed_at": "2026-11-22T12:00:00+11:00",
+      "delivered_at": null,
+      "cancelled_at": "2026-11-22T12:20:00+11:00",
+      "delivery_window": "6:00 pm \u2013 8:00 pm",
+      "address": "40 Barkly Street, Footscray VIC 3011",
+      "items": [
+        {
+          "product_id": "HB-2011",
+          "name": "Cooked King Prawns",
+          "unit_price_aud": 15.0,
+          "quantity": 2,
+          "line_total_aud": 30.0
+        }
+      ],
+      "notes": "Cancelled: customer realised the prawns are shellfish, which they avoid.",
+      "substitution_preference": "refund",
+      "subtotal_aud": 30.0,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 39.0
+    },
+    {
+      "id": "ORD-5012",
+      "customer_id": "CUST-1007",
+      "status": "in_transit",
+      "placed_at": "2026-11-25T08:30:00+11:00",
+      "delivered_at": null,
+      "delivery_window": "5:00 pm \u2013 7:00 pm, 25 Nov 2026",
+      "address": "17 Acland Street, St Kilda VIC 3182",
+      "items": [
+        {
+          "product_id": "HB-3003",
+          "name": "Lactose Free Full Cream Milk",
+          "unit_price_aud": 4.2,
+          "quantity": 2,
+          "line_total_aud": 8.4
+        },
+        {
+          "product_id": "HB-3005",
+          "name": "Oat Milk Barista",
+          "unit_price_aud": 3.8,
+          "quantity": 1,
+          "line_total_aud": 3.8
+        },
+        {
+          "product_id": "HB-4003",
+          "name": "Sourdough Cob",
+          "unit_price_aud": 6.5,
+          "quantity": 1,
+          "line_total_aud": 6.5
+        },
+        {
+          "product_id": "HB-1001",
+          "name": "Hass Avocados",
+          "unit_price_aud": 3.2,
+          "quantity": 3,
+          "line_total_aud": 9.6
+        }
+      ],
+      "notes": "Lactose-intolerant household. Do not substitute regular milk.",
+      "substitution_preference": "contact-me",
+      "subtotal_aud": 28.3,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 37.3
+    },
+    {
+      "id": "ORD-5013",
+      "customer_id": "CUST-1008",
+      "status": "delivered",
+      "placed_at": "2026-11-01T09:00:00+11:00",
+      "delivered_at": "2026-11-01T15:45:00+11:00",
+      "delivery_window": "3:00 pm \u2013 5:00 pm",
+      "address": "55 Kingsway, Glen Waverley VIC 3150",
+      "items": [
+        {
+          "product_id": "HB-9201",
+          "name": "Nappies Size 3 Mid Pack",
+          "unit_price_aud": 18.0,
+          "quantity": 1,
+          "line_total_aud": 18.0
+        },
+        {
+          "product_id": "HB-9202",
+          "name": "Fragrance Free Baby Wipes",
+          "unit_price_aud": 4.5,
+          "quantity": 3,
+          "line_total_aud": 13.5
+        },
+        {
+          "product_id": "HB-9204",
+          "name": "Pear and Apple Baby Puree",
+          "unit_price_aud": 1.8,
+          "quantity": 6,
+          "line_total_aud": 10.8
+        },
+        {
+          "product_id": "HB-1002",
+          "name": "Cavendish Bananas",
+          "unit_price_aud": 3.9,
+          "quantity": 1,
+          "line_total_aud": 3.9
+        }
+      ],
+      "notes": null,
+      "substitution_preference": "allow-similar",
+      "subtotal_aud": 46.2,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 55.2
+    },
+    {
+      "id": "ORD-5014",
+      "customer_id": "CUST-1008",
+      "status": "processing",
+      "placed_at": "2026-11-25T13:10:00+11:00",
+      "delivered_at": null,
+      "delivery_window": "10:00 am \u2013 12:00 pm, 26 Nov 2026",
+      "address": "55 Kingsway, Glen Waverley VIC 3150",
+      "items": [
+        {
+          "product_id": "HB-9301",
+          "name": "Adult Dry Dog Food Chicken",
+          "unit_price_aud": 22.0,
+          "quantity": 1,
+          "line_total_aud": 22.0
+        },
+        {
+          "product_id": "HB-9306",
+          "name": "Dog Training Treats",
+          "unit_price_aud": 5.5,
+          "quantity": 2,
+          "line_total_aud": 11.0
+        }
+      ],
+      "notes": "Leave dog food in the carport if no one is home.",
+      "substitution_preference": "allow-similar",
+      "subtotal_aud": 33.0,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 42.0
+    },
+    {
+      "id": "ORD-5015",
+      "customer_id": "CUST-1004",
+      "status": "delivered",
+      "placed_at": "2026-10-28T18:20:00+11:00",
+      "delivered_at": "2026-10-29T09:50:00+11:00",
+      "delivery_window": "9:00 am \u2013 11:00 am",
+      "address": "22 Bridge Road, Richmond VIC 3121",
+      "items": [
+        {
+          "product_id": "HB-5030",
+          "name": "Wheat Breakfast Biscuits",
+          "unit_price_aud": 5.2,
+          "quantity": 1,
+          "line_total_aud": 5.2
+        },
+        {
+          "product_id": "HB-3005",
+          "name": "Oat Milk Barista",
+          "unit_price_aud": 3.8,
+          "quantity": 2,
+          "line_total_aud": 7.6
+        },
+        {
+          "product_id": "HB-7007",
+          "name": "Lightly Salted Popcorn",
+          "unit_price_aud": 2.5,
+          "quantity": 2,
+          "line_total_aud": 5.0
+        },
+        {
+          "product_id": "HB-8013",
+          "name": "Ginger Kombucha",
+          "unit_price_aud": 4.2,
+          "quantity": 4,
+          "line_total_aud": 16.8
+        }
+      ],
+      "notes": null,
+      "substitution_preference": "allow-similar",
+      "subtotal_aud": 34.6,
+      "delivery_fee_aud": 9.0,
+      "total_aud": 43.6
+    },
+    {
+      "id": "ORD-5016",
+      "customer_id": "CUST-1002",
+      "status": "ready_for_pickup",
+      "placed_at": "2026-11-25T11:00:00+11:00",
+      "delivered_at": null,
+      "delivery_window": "Click & collect, Hawthorn East, today 4:00 pm \u2013 6:00 pm",
+      "address": "Harbour Basket Hawthorn East, sample store (synthetic)",
+      "items": [
+        {
+          "product_id": "HB-6012",
+          "name": "Party Meat Pies",
+          "unit_price_aud": 8.5,
+          "quantity": 1,
+          "line_total_aud": 8.5
+        },
+        {
+          "product_id": "HB-6013",
+          "name": "Party Sausage Rolls",
+          "unit_price_aud": 8.0,
+          "quantity": 1,
+          "line_total_aud": 8.0
+        },
+        {
+          "product_id": "HB-8006",
+          "name": "Cola Soft Drink",
+          "unit_price_aud": 2.2,
+          "quantity": 3,
+          "line_total_aud": 6.6
+        }
+      ],
+      "notes": "Click and collect. Customer will pick up after work.",
+      "substitution_preference": "allow-similar",
+      "subtotal_aud": 23.1,
+      "delivery_fee_aud": 0.0,
+      "total_aud": 23.1
+    }
+  ]
+}

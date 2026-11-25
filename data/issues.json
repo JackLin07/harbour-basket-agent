@@ -1,0 +1,36 @@
+{
+  "dataset": "harbour-basket-synthetic",
+  "notice": "SYNTHETIC DATA ONLY. This catalogue is entirely fictional and was created for a portfolio demo. It is not real supermarket data, does not use real retailer product names or prices, and is not affiliated with any grocery chain.",
+  "currency": "AUD",
+  "locale": "en-AU",
+  "generated_for": "Portfolio demo. Not real retailer data.",
+  "count": 2,
+  "issues": [
+    {
+      "id": "ISS-7001",
+      "customer_id": "CUST-1001",
+      "order_id": "ORD-5003",
+      "issue_type": "missing_item",
+      "product_ids": [
+        "HB-3008"
+      ],
+      "description": "Salted butter was on the invoice but not in the bags.",
+      "status": "open",
+      "created_at": "2026-11-18T19:02:00+11:00",
+      "resolution": null
+    },
+    {
+      "id": "ISS-7002",
+      "customer_id": "CUST-1005",
+      "order_id": "ORD-5009",
+      "issue_type": "missing_item",
+      "product_ids": [
+        "HB-1007"
+      ],
+      "description": "Strawberry punnets were short by one.",
+      "status": "refund_issued",
+      "created_at": "2026-11-19T20:30:00+11:00",
+      "resolution": "Refund of $4.50 credited to the original payment method."
+    }
+  ]
+}

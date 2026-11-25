@@ -1,0 +1,3807 @@
+{
+  "dataset": "harbour-basket-synthetic",
+  "notice": "SYNTHETIC DATA ONLY. This catalogue is entirely fictional and was created for a portfolio demo. It is not real supermarket data, does not use real retailer product names or prices, and is not affiliated with any grocery chain.",
+  "currency": "AUD",
+  "locale": "en-AU",
+  "generated_for": "Portfolio demo. Not real retailer data.",
+  "count": 200,
+  "products": [
+    {
+      "id": "HB-1001",
+      "name": "Hass Avocados",
+      "brand": "Red Dirt Produce",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 3.2,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Ripe Hass avocados with creamy green flesh and a nutty flavour. Ideal smashed on toast, folded through salads, or blended into a guacamole.",
+      "stock": 42,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1002",
+      "name": "Cavendish Bananas",
+      "brand": "Capricorn Farms",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 3.9,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Sweet, ready-to-eat Cavendish bananas grown in northern Australia. A lunchbox staple and a reliable base for smoothies or banana bread.",
+      "stock": 80,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1003",
+      "name": "Pink Lady Apples",
+      "brand": "Sunny Ridge",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 5.5,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Crisp, sweet-tart Pink Lady apples with a rosy blush. They keep their crunch in lunchboxes and add brightness to slaws and baking.",
+      "stock": 65,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1004",
+      "name": "Granny Smith Apples",
+      "brand": "Sunny Ridge",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 4.8,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Classic green Granny Smiths with firm flesh and a sharp, clean acidity. Excellent for pies, crumbles, and anyone who prefers a tart apple.",
+      "stock": 58,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1005",
+      "name": "Navel Oranges",
+      "brand": "Coastal Gold",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 4.5,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Juicy, seedless navel oranges with a thick, easy-to-peel skin. Sweet enough to eat out of hand and bright in a morning juice.",
+      "stock": 70,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1006",
+      "name": "Seedless Watermelon Wedge",
+      "brand": "Red Dirt Produce",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 4.2,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "A chilled seedless watermelon wedge, deep pink and crisp. Cut and serve for a hydrating summer dessert or a picnic snack.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1007",
+      "name": "Strawberries",
+      "brand": "Sunny Ridge",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 4.5,
+      "unit": "250 g punnet",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Sweet red strawberries packed in a 250 g punnet. Rinse and eat fresh, slice over yoghurt, or macerate for shortcake.",
+      "stock": 36,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1008",
+      "name": "Blueberries",
+      "brand": "Sunny Ridge",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 5.8,
+      "unit": "125 g punnet",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Plump blueberries with a natural bloom. High in flavour for a small punnet; scatter over porridge, bake into muffins, or freeze for smoothies.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1009",
+      "name": "Lemons",
+      "brand": "Coastal Gold",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 5.0,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Bright, thin-skinned lemons with plenty of juice and fragrant zest. Essential for dressings, seafood, baking, and a jug of lemon water.",
+      "stock": 48,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1010",
+      "name": "Limes",
+      "brand": "Coastal Gold",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 6.5,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Aromatic green limes with sharp citrus juice. Perfect for Thai-style salads, guacamole, sparkling drinks, and finishing grilled fish.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1011",
+      "name": "Green Seedless Grapes",
+      "brand": "Sunny Ridge",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 6.9,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Crisp, sweet green seedless grapes sold by the kilogram. Chill them for snacking, freeze for a simple dessert, or add to a cheese board.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1012",
+      "name": "Imperial Mandarins",
+      "brand": "Coastal Gold",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 5.2,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Easy-peel Imperial mandarins with sweet, low-acid segments. A no-fuss lunchbox fruit and a fragrant addition to salads.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1014",
+      "name": "Kensington Pride Mango",
+      "brand": "Capricorn Farms",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 3.5,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "A single Kensington Pride mango with golden, fragrant flesh. Slice around the seed and serve chilled, or blend into a lassi-style smoothie.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1015",
+      "name": "Whole Pineapple",
+      "brand": "Capricorn Farms",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 4.8,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "A ripe whole pineapple with sweet yellow flesh and a tropical aroma. Twist off the crown, peel, and core for fruit salads or grilling.",
+      "stock": 15,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1017",
+      "name": "Raspberries",
+      "brand": "Sunny Ridge",
+      "category": "fresh-produce",
+      "subcategory": "fruit",
+      "price_aud": 6.0,
+      "unit": "125 g punnet",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Delicate raspberries with a perfumed tart-sweet flavour. Currently out of stock; they are usually superb over ice cream or folded into muffins.",
+      "stock": 0,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1101",
+      "name": "Broccoli Head",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 2.8,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "A tight, deep-green broccoli head with firm florets and a tender stem. Steam, roast, or stir-fry; the stem is sweet once peeled.",
+      "stock": 50,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1102",
+      "name": "Baby Spinach",
+      "brand": "Greenleaf Organics",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.8,
+      "unit": "120 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "organic"
+      ],
+      "allergens": [],
+      "description": "Organic baby spinach leaves, washed and ready to eat. Soft enough for salads, sturdy enough to wilt into pasta, eggs, or a curry.",
+      "stock": 44,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1103",
+      "name": "Iceberg Lettuce",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 2.7,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "A crunchy iceberg lettuce with a pale, tightly packed heart. The classic base for burgers, tacos, and a simple shaved salad.",
+      "stock": 38,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1104",
+      "name": "Cos Lettuce",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.2,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Crisp cos (romaine) lettuce with long, sweet leaves. Built for Caesar salad, lunch wraps, and grilling on the barbecue.",
+      "stock": 35,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1105",
+      "name": "Truss Tomatoes",
+      "brand": "Red Dirt Produce",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 5.9,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Vine-ripened truss tomatoes with a rich, savoury sweetness. Slice for sandwiches, roast until jammy, or simmer into a quick sauce.",
+      "stock": 42,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1106",
+      "name": "Cherry Tomatoes",
+      "brand": "Red Dirt Produce",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.8,
+      "unit": "250 g punnet",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Bite-sized cherry tomatoes that burst with juice. Snack on them raw, toss through pasta, or roast with olive oil and salt.",
+      "stock": 47,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1107",
+      "name": "Lebanese Cucumbers",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.5,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Slender Lebanese cucumbers with thin skins and very few seeds. No peeling needed; they stay crisp in salads, sushi, and lunchboxes.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1108",
+      "name": "Carrots",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 2.4,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Sweet orange carrots, sold loose by the kilogram. A weeknight workhorse for roasting, soups, slaws, and after-school snacks.",
+      "stock": 72,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1109",
+      "name": "Brushed Potatoes",
+      "brand": "Saltbush",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.5,
+      "unit": "2 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Earth-brushed all-rounder potatoes with fluffy interiors. Suitable for mashing, roasting, baking, and a rustic potato salad.",
+      "stock": 55,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1110",
+      "name": "Gold Sweet Potatoes",
+      "brand": "Saltbush",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 4.0,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Orange-fleshed gold sweet potatoes with a naturally sweet, creamy texture once roasted. Excellent in trays, mash, or as fries.",
+      "stock": 34,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1111",
+      "name": "Brown Onions",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 2.8,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Papery brown onions with a reliable savoury bite. The starting point for almost every soup, stew, stir-fry, and slow braise.",
+      "stock": 68,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1112",
+      "name": "Red Onions",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.2,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Milder red onions that hold their colour when sliced raw. Ideal for burgers, pickling, and a sharp note in salads.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1113",
+      "name": "Garlic Bulb",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 1.5,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "A firm, fresh garlic bulb with tight cloves. Crush, slice, or roast whole until sweet and spreadable.",
+      "stock": 90,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1114",
+      "name": "Zucchini",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.8,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Tender green zucchini with a mild flavour that takes on olive oil and herbs. Grill, spiralise, bake, or fold into fritters.",
+      "stock": 36,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1115",
+      "name": "Red Capsicum",
+      "brand": "Red Dirt Produce",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 2.4,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "A glossy red capsicum, sweeter than the green ones. Stuff, roast, slice into stir-fries, or blend into a dip.",
+      "stock": 48,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1116",
+      "name": "Cup Mushrooms",
+      "brand": "Meadow Lane",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 4.2,
+      "unit": "400 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Fresh white cup mushrooms with a mild, earthy flavour. Slice for omelettes, pasta, or a weeknight creamy mushroom toast.",
+      "stock": 29,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1117",
+      "name": "Jap Pumpkin Wedge",
+      "brand": "Saltbush",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.0,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "A pre-cut Kent (Jap) pumpkin wedge with dense, sweet orange flesh. Roast until caramelised or blend into soup.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1118",
+      "name": "Sweet Corn Cobs",
+      "brand": "Capricorn Farms",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 4.5,
+      "unit": "3 pack",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Three fresh sweet corn cobs with plump yellow kernels. Boil or barbecue and finish with butter, or slice kernels into a salad.",
+      "stock": 27,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1120",
+      "name": "Celery Bunch",
+      "brand": "Paddock Pride",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.2,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "A full bunch of crisp celery with pale inner stalks. Essential for soffritto, stocks, and a classic peanut-butter snack.",
+      "stock": 25,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1121",
+      "name": "Curly Kale",
+      "brand": "Greenleaf Organics",
+      "category": "fresh-produce",
+      "subcategory": "vegetables",
+      "price_aud": 3.5,
+      "unit": "1 bunch",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "organic"
+      ],
+      "allergens": [],
+      "description": "Organic curly kale with sturdy, mineral-rich leaves. Massage with lemon for a salad, or roast into chips and wilt into soups.",
+      "stock": 19,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1122",
+      "name": "Fresh Basil",
+      "brand": "Greenleaf Organics",
+      "category": "fresh-produce",
+      "subcategory": "herbs",
+      "price_aud": 2.8,
+      "unit": "1 bunch",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "organic"
+      ],
+      "allergens": [],
+      "description": "A fragrant bunch of organic sweet basil. Tear over tomatoes and mozzarella, blitz into pesto, or finish a tomato pasta.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1123",
+      "name": "Fresh Coriander",
+      "brand": "Greenleaf Organics",
+      "category": "fresh-produce",
+      "subcategory": "herbs",
+      "price_aud": 2.5,
+      "unit": "1 bunch",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "organic"
+      ],
+      "allergens": [],
+      "description": "A leafy bunch of organic coriander with tender stems. The finishing herb for curries, tacos, pho, and a sharp salsa.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-1124",
+      "name": "Fresh Ginger",
+      "brand": "Lantern Bay",
+      "category": "fresh-produce",
+      "subcategory": "herbs",
+      "price_aud": 3.0,
+      "unit": "150 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "description": "Knobbly fresh ginger with a spicy, citrusy heat. Grate into stir-fries, steep for tea, or juice with lemon and honey.",
+      "stock": 33,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2001",
+      "name": "Chicken Breast Fillets",
+      "brand": "Paddock Pride",
+      "category": "meat-seafood",
+      "subcategory": "poultry",
+      "price_aud": 13.5,
+      "unit": "500 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein",
+        "halal"
+      ],
+      "allergens": [],
+      "description": "Skinless chicken breast fillets, trimmed and ready to cook. A lean, high-protein option for grilling, pan-frying, or slicing into a stir-fry. Packed in a halal-certified facility.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2002",
+      "name": "Chicken Thigh Fillets",
+      "brand": "Paddock Pride",
+      "category": "meat-seafood",
+      "subcategory": "poultry",
+      "price_aud": 11.0,
+      "unit": "500 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein",
+        "halal"
+      ],
+      "allergens": [],
+      "description": "Boneless, skinless chicken thigh fillets with richer flavour than breast. Ideal for curries, tray bakes, and weekday tacos. Halal certified.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2003",
+      "name": "Whole Chicken",
+      "brand": "Paddock Pride",
+      "category": "meat-seafood",
+      "subcategory": "poultry",
+      "price_aud": 9.8,
+      "unit": "1.6 kg",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein",
+        "halal"
+      ],
+      "allergens": [],
+      "description": "A whole bird, around 1.6 kg, ready for roasting. Season the skin, stuff the cavity with lemon and herbs, and roast until golden. Halal certified.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2004",
+      "name": "Beef Mince 5 Star",
+      "brand": "Ironbark",
+      "category": "meat-seafood",
+      "subcategory": "beef",
+      "price_aud": 12.0,
+      "unit": "500 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein"
+      ],
+      "allergens": [],
+      "description": "Extra-lean five-star beef mince with a clean flavour. Suited to bolognese, tacos, rissoles, and a lighter cottage pie.",
+      "stock": 32,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2005",
+      "name": "Beef Rump Steak",
+      "brand": "Ironbark",
+      "category": "meat-seafood",
+      "subcategory": "beef",
+      "price_aud": 16.5,
+      "unit": "400 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein",
+        "keto-friendly"
+      ],
+      "allergens": [],
+      "description": "A 400 g rump steak with good beefy flavour and a little chew. Best seared hot and rested; slice across the grain.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2006",
+      "name": "Lamb Loin Chops",
+      "brand": "Ironbark",
+      "category": "meat-seafood",
+      "subcategory": "lamb",
+      "price_aud": 18.0,
+      "unit": "500 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein",
+        "keto-friendly"
+      ],
+      "allergens": [],
+      "description": "Meaty lamb loin chops with a thin cap of fat. Pan-fry or grill and serve with mint, lemon, and roasted vegetables.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2007",
+      "name": "Pork Sausages",
+      "brand": "Ironbark Smokehouse",
+      "category": "meat-seafood",
+      "subcategory": "pork",
+      "price_aud": 9.5,
+      "unit": "500 g (6 pack)",
+      "dietary_tags": [
+        "high-protein"
+      ],
+      "allergens": [
+        "gluten",
+        "sulphites"
+      ],
+      "description": "Six thick pork sausages seasoned with herbs and a hint of white pepper. They contain gluten from the rusk and sulphites as a preservative.",
+      "stock": 26,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2008",
+      "name": "Streaky Bacon Rashers",
+      "brand": "Ironbark Smokehouse",
+      "category": "meat-seafood",
+      "subcategory": "pork",
+      "price_aud": 8.8,
+      "unit": "300 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein"
+      ],
+      "allergens": [],
+      "description": "Smoked streaky bacon rashers that crisp at the edges. Cook for breakfast, crumble over soup, or weave into a roast garnish.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2009",
+      "name": "Atlantic Salmon Fillet",
+      "brand": "Ocean Catch",
+      "category": "meat-seafood",
+      "subcategory": "seafood",
+      "price_aud": 14.0,
+      "unit": "250 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein",
+        "keto-friendly"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "description": "A skin-on Atlantic salmon fillet with rich oil and a clean ocean flavour. Pan-sear skin-side down or bake with lemon and dill. Contains fish.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2010",
+      "name": "Barramundi Fillet",
+      "brand": "Kimberley Coast",
+      "category": "meat-seafood",
+      "subcategory": "seafood",
+      "price_aud": 13.5,
+      "unit": "250 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "description": "A firm, mild Australian barramundi fillet that holds together on the grill. A forgiving white fish for weeknight dinners. Contains fish.",
+      "stock": 11,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2011",
+      "name": "Cooked King Prawns",
+      "brand": "Ocean Catch",
+      "category": "meat-seafood",
+      "subcategory": "seafood",
+      "price_aud": 15.0,
+      "unit": "250 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein"
+      ],
+      "allergens": [
+        "shellfish"
+      ],
+      "description": "Peeled, cooked king prawns, chilled and ready to eat. Toss through a cocktail, a garlic butter pasta, or a summer salad. Contains shellfish.",
+      "stock": 13,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2012",
+      "name": "Yellowfin Tuna Steaks",
+      "brand": "Ocean Catch",
+      "category": "meat-seafood",
+      "subcategory": "seafood",
+      "price_aud": 16.0,
+      "unit": "300 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein",
+        "keto-friendly"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "description": "Two lean yellowfin tuna steaks, best seared rare. Serve with sesame, soy, and a sharp salad. Contains fish.",
+      "stock": 8,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2013",
+      "name": "Beef Eye Fillet Steak",
+      "brand": "Ironbark",
+      "category": "meat-seafood",
+      "subcategory": "beef",
+      "price_aud": 22.0,
+      "unit": "200 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein",
+        "keto-friendly"
+      ],
+      "allergens": [],
+      "description": "A tender 200 g eye fillet steak, mild in flavour and very lean. Sear quickly and rest; this cut does not want a long cook.",
+      "stock": 6,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-2015",
+      "name": "Kangaroo Mince",
+      "brand": "Red Dirt Produce",
+      "category": "meat-seafood",
+      "subcategory": "game",
+      "price_aud": 11.0,
+      "unit": "500 g",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein"
+      ],
+      "allergens": [],
+      "description": "Lean Australian kangaroo mince with a clean, slightly gamey flavour and very little fat. Cook quickly and do not overwork; excellent in a chilli or cottage pie.",
+      "stock": 10,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3001",
+      "name": "Full Cream Milk",
+      "brand": "Driftwood Dairy",
+      "category": "dairy-eggs",
+      "subcategory": "milk",
+      "price_aud": 3.4,
+      "unit": "2 L",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Fresh full cream cows' milk with a round, slightly sweet flavour. The everyday 2 L bottle for tea, cereal, and baking. Contains milk.",
+      "stock": 60,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3002",
+      "name": "Reduced Fat Milk",
+      "brand": "Driftwood Dairy",
+      "category": "dairy-eggs",
+      "subcategory": "milk",
+      "price_aud": 3.4,
+      "unit": "2 L",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Reduced fat cows' milk that still tastes like milk, not water. A lighter pour for coffee and cereal. Contains milk.",
+      "stock": 48,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3003",
+      "name": "Lactose Free Full Cream Milk",
+      "brand": "Driftwood Dairy",
+      "category": "dairy-eggs",
+      "subcategory": "milk",
+      "price_aud": 4.2,
+      "unit": "2 L",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free",
+        "lactose-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Full cream milk treated to remove lactose, so it stays creamy without the discomfort. Suitable for lactose-intolerant households; still contains milk protein.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3004",
+      "name": "Almond Milk Unsweetened",
+      "brand": "Wattle & Co",
+      "category": "dairy-eggs",
+      "subcategory": "plant-milk",
+      "price_aud": 3.5,
+      "unit": "1 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "lactose-free"
+      ],
+      "allergens": [
+        "tree-nuts"
+      ],
+      "description": "Unsweetened almond milk with a clean, nutty taste and no added sugar. Good in coffee and smoothies. Contains tree nuts (almond).",
+      "stock": 34,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3005",
+      "name": "Oat Milk Barista",
+      "brand": "Wattle & Co",
+      "category": "dairy-eggs",
+      "subcategory": "plant-milk",
+      "price_aud": 3.8,
+      "unit": "1 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "lactose-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "A barista-style oat milk that steams and stretches for coffee. Naturally sweet from the oats; contains gluten.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3006",
+      "name": "Greek Style Yoghurt",
+      "brand": "Driftwood Dairy",
+      "category": "dairy-eggs",
+      "subcategory": "yoghurt",
+      "price_aud": 6.5,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free",
+        "high-protein"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Thick, tangy Greek-style yoghurt in a 1 kg tub. High in protein; spoon over fruit, swirl into curries, or use as a sour-cream stand-in. Contains milk.",
+      "stock": 27,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3007",
+      "name": "Natural Yoghurt",
+      "brand": "Driftwood Dairy",
+      "category": "dairy-eggs",
+      "subcategory": "yoghurt",
+      "price_aud": 4.2,
+      "unit": "700 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "A milder natural yoghurt, looser than the Greek style. Everyday breakfast yoghurt and a gentle marinade base. Contains milk.",
+      "stock": 25,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3008",
+      "name": "Salted Butter",
+      "brand": "Meadow Lane",
+      "category": "dairy-eggs",
+      "subcategory": "butter",
+      "price_aud": 6.2,
+      "unit": "250 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Cultured salted butter with a clean dairy flavour and even salt. The default block for toast, sauces, and baking. Contains milk.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3009",
+      "name": "Tasty Cheese Block",
+      "brand": "Meadow Lane",
+      "category": "dairy-eggs",
+      "subcategory": "cheese",
+      "price_aud": 8.5,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "A 500 g block of tasty cheddar-style cheese, sharp and reliable for grating. The sandwich, toastie, and pasta bake staple. Contains milk.",
+      "stock": 36,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3010",
+      "name": "Tasty Cheese Slices",
+      "brand": "Meadow Lane",
+      "category": "dairy-eggs",
+      "subcategory": "cheese",
+      "price_aud": 5.5,
+      "unit": "12 slices",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Twelve individually stacked tasty cheese slices that melt evenly on burgers and toasties. Contains milk.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3011",
+      "name": "Cream Cheese",
+      "brand": "Meadow Lane",
+      "category": "dairy-eggs",
+      "subcategory": "cheese",
+      "price_aud": 4.8,
+      "unit": "250 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Soft, spreadable cream cheese for bagels, icing, and a quick smoked-salmon plate. Contains milk.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3012",
+      "name": "Sour Cream",
+      "brand": "Driftwood Dairy",
+      "category": "dairy-eggs",
+      "subcategory": "cream",
+      "price_aud": 3.2,
+      "unit": "300 ml",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Thick sour cream with a clean tang. Dollop on tacos, baked potatoes, and borscht, or loosen a sauce. Contains milk.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3013",
+      "name": "Free Range Eggs 12 Pack",
+      "brand": "Capricorn Farms",
+      "category": "dairy-eggs",
+      "subcategory": "eggs",
+      "price_aud": 7.8,
+      "unit": "12 pack",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free",
+        "high-protein",
+        "nut-free"
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "description": "A dozen free range eggs from hens with outdoor access. Rich yolks for frying, baking, and a proper mayo. Contains egg.",
+      "stock": 50,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3015",
+      "name": "Thickened Cream",
+      "brand": "Driftwood Dairy",
+      "category": "dairy-eggs",
+      "subcategory": "cream",
+      "price_aud": 4.0,
+      "unit": "600 ml",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Thickened cream that whips to soft or firm peaks. Use in desserts, mashed potato, and creamy pasta. Contains milk.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3017",
+      "name": "Persian Style Feta",
+      "brand": "Lantern Bay",
+      "category": "dairy-eggs",
+      "subcategory": "cheese",
+      "price_aud": 6.8,
+      "unit": "200 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Creamy, marinated Persian-style feta packed in oil and herbs. Crumble over watermelon, roast pumpkin, or a grain salad. Contains milk.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3018",
+      "name": "Parmesan Wedge",
+      "brand": "Yarra Mill",
+      "category": "dairy-eggs",
+      "subcategory": "cheese",
+      "price_aud": 7.5,
+      "unit": "150 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "A hard, aged parmesan-style wedge for fine grating. A little goes a long way over pasta, risotto, and soup. Contains milk.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3019",
+      "name": "Shredded Mozzarella",
+      "brand": "Meadow Lane",
+      "category": "dairy-eggs",
+      "subcategory": "cheese",
+      "price_aud": 6.0,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "Low-moisture shredded mozzarella that melts into long stretches. Built for homemade pizza and lasagne. Contains milk.",
+      "stock": 21,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-3020",
+      "name": "Plant Butter Spread",
+      "brand": "Wattle & Co",
+      "category": "dairy-eggs",
+      "subcategory": "spreads",
+      "price_aud": 5.0,
+      "unit": "250 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "lactose-free"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "description": "A soft plant-based spread made from a blend of oils and a touch of soy. Melts on toast and works in many baking recipes. Contains soy.",
+      "stock": 19,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4001",
+      "name": "White Sandwich Loaf",
+      "brand": "Terra Bakehouse",
+      "category": "bakery",
+      "subcategory": "bread",
+      "price_aud": 3.2,
+      "unit": "700 g",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "soy"
+      ],
+      "description": "A soft white sandwich loaf with an even crumb, sliced for lunchboxes. Contains gluten and soy flour.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4002",
+      "name": "Wholemeal Loaf",
+      "brand": "Terra Bakehouse",
+      "category": "bakery",
+      "subcategory": "bread",
+      "price_aud": 3.5,
+      "unit": "700 g",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "soy"
+      ],
+      "description": "A sliced wholemeal loaf with a slightly nutty wheat flavour and a closer crumb. Better fibre than white, still lunchbox-soft. Contains gluten and soy.",
+      "stock": 32,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4003",
+      "name": "Sourdough Cob",
+      "brand": "Fern & Flour",
+      "category": "bakery",
+      "subcategory": "bread",
+      "price_aud": 6.5,
+      "unit": "each",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "nut-free",
+        "dairy-free"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "A naturally leavened sourdough cob with a blistered crust and an open, tangy crumb. Slice thick for toast or a proper sandwich. Contains gluten. Vegan.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4004",
+      "name": "Multigrain Loaf",
+      "brand": "Terra Bakehouse",
+      "category": "bakery",
+      "subcategory": "bread",
+      "price_aud": 4.2,
+      "unit": "700 g",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "gluten",
+        "sesame",
+        "soy"
+      ],
+      "description": "A seeded multigrain loaf with sunflower, linseed, and sesame for extra texture. Sturdy enough for toasted sandwiches. Contains gluten, sesame, and soy.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4005",
+      "name": "Butter Croissants",
+      "brand": "Fern & Flour",
+      "category": "bakery",
+      "subcategory": "pastry",
+      "price_aud": 6.0,
+      "unit": "4 pack",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "gluten",
+        "milk",
+        "egg"
+      ],
+      "description": "Four all-butter croissants with flaky layers and a tender interior. Warm briefly and eat plain, or fill with ham and cheese. Contains gluten, milk, and egg.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4006",
+      "name": "English Muffins",
+      "brand": "Terra Bakehouse",
+      "category": "bakery",
+      "subcategory": "bread",
+      "price_aud": 4.0,
+      "unit": "6 pack",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "milk",
+        "soy"
+      ],
+      "description": "Six fork-split English muffins with the classic nooks for butter and jam, or eggs Benedict. Contains gluten, milk, and soy.",
+      "stock": 26,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4007",
+      "name": "White Wraps",
+      "brand": "Terra Bakehouse",
+      "category": "bakery",
+      "subcategory": "wraps",
+      "price_aud": 3.8,
+      "unit": "8 pack",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "soy"
+      ],
+      "description": "Eight soft white wheat wraps that stay flexible in the fridge. Fill with salad, falafel, or leftover roast. Contains gluten and soy.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4008",
+      "name": "Thin Pizza Bases",
+      "brand": "Fern & Flour",
+      "category": "bakery",
+      "subcategory": "pizza",
+      "price_aud": 4.5,
+      "unit": "2 pack",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "Two thin, par-baked pizza bases ready for sauce and toppings. A weeknight pizza in under 15 minutes. Contains gluten.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4009",
+      "name": "Banana Bread Slices",
+      "brand": "Little Batch",
+      "category": "bakery",
+      "subcategory": "sweet",
+      "price_aud": 5.5,
+      "unit": "4 pack",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "gluten",
+        "egg",
+        "milk"
+      ],
+      "description": "Four thick slices of moist banana bread with a hint of cinnamon. Toast and butter, or pack as a cafe-style snack. Contains gluten, egg, and milk.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4010",
+      "name": "Soft Dinner Rolls",
+      "brand": "Terra Bakehouse",
+      "category": "bakery",
+      "subcategory": "bread",
+      "price_aud": 3.8,
+      "unit": "6 pack",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "milk",
+        "soy"
+      ],
+      "description": "Six soft dinner rolls with a light crust. Warm them for soups, sliders, or a Sunday roast. Contains gluten, milk, and soy.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4011",
+      "name": "Gluten Free Sandwich Loaf",
+      "brand": "Banksia",
+      "category": "bakery",
+      "subcategory": "bread",
+      "price_aud": 7.2,
+      "unit": "600 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "description": "A sliced gluten-free loaf based on rice and tapioca flours, with a soft crumb that toasts well. Not vegan; contains egg.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-4012",
+      "name": "Plain Bagels",
+      "brand": "Fern & Flour",
+      "category": "bakery",
+      "subcategory": "bread",
+      "price_aud": 5.0,
+      "unit": "4 pack",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "soy"
+      ],
+      "description": "Four chewy plain bagels with a slightly shiny crust. Split, toast, and load with cream cheese or smoked salmon. Contains gluten and soy.",
+      "stock": 15,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5001",
+      "name": "Spaghetti",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "pasta-rice",
+      "price_aud": 1.8,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "nut-free",
+        "dairy-free"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "Classic durum wheat spaghetti that cooks to a firm bite in about 9 minutes. The default long pasta for tomato, oil, or cream sauces. Contains gluten.",
+      "stock": 70,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5002",
+      "name": "Penne Rigate",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "pasta-rice",
+      "price_aud": 1.8,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "nut-free",
+        "dairy-free"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "Ridged penne that holds onto sauce in every tube. A family favourite for bakes and pesto. Contains gluten.",
+      "stock": 64,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5003",
+      "name": "Jasmine Rice",
+      "brand": "Lantern Bay",
+      "category": "pantry",
+      "subcategory": "pasta-rice",
+      "price_aud": 4.5,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "nut-free",
+        "dairy-free"
+      ],
+      "allergens": [],
+      "description": "Fragrant long-grain jasmine rice with a soft, slightly sticky finish. The everyday rice for Thai and Vietnamese-style meals.",
+      "stock": 45,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5004",
+      "name": "Basmati Rice",
+      "brand": "Lantern Bay",
+      "category": "pantry",
+      "subcategory": "pasta-rice",
+      "price_aud": 4.8,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "nut-free",
+        "dairy-free"
+      ],
+      "allergens": [],
+      "description": "Aged basmati rice that cooks into separate, aromatic grains. Built for curries, pilafs, and a fluffy side.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5005",
+      "name": "Arborio Rice",
+      "brand": "Yarra Mill",
+      "category": "pantry",
+      "subcategory": "pasta-rice",
+      "price_aud": 4.2,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "nut-free",
+        "dairy-free"
+      ],
+      "allergens": [],
+      "description": "Short-grain arborio rice that releases starch slowly for a creamy risotto without going mushy.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5006",
+      "name": "Tomato Basil Pasta Sauce",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "sauces",
+      "price_aud": 3.2,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A simple tomato pasta sauce simmered with basil and onion, with no added cream. A weeknight jar you can dress up with garlic and chilli.",
+      "stock": 38,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5007",
+      "name": "Extra Virgin Olive Oil",
+      "brand": "Yarra Mill",
+      "category": "pantry",
+      "subcategory": "oils",
+      "price_aud": 12.0,
+      "unit": "750 ml",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A fruity Australian extra virgin olive oil with a gentle peppery finish. Use raw on salads and vegetables; it also handles everyday frying.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5008",
+      "name": "Canola Oil",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "oils",
+      "price_aud": 5.5,
+      "unit": "1 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A neutral, high smoke-point canola oil for frying, roasting, and baking when you do not want the oil to taste of anything.",
+      "stock": 36,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5009",
+      "name": "Naturally Brewed Soy Sauce",
+      "brand": "Lantern Bay",
+      "category": "pantry",
+      "subcategory": "sauces",
+      "price_aud": 3.8,
+      "unit": "375 ml",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "soy"
+      ],
+      "description": "A naturally brewed soy sauce with a deep, savoury saltiness. Season stir-fries, marinades, and dumpling dips. Contains gluten and soy.",
+      "stock": 42,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5010",
+      "name": "Tomato Paste",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "sauces",
+      "price_aud": 1.7,
+      "unit": "140 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A concentrated tomato paste in a small can. A spoonful builds colour and umami in sauces, soups, and a quick shakshuka.",
+      "stock": 50,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5011",
+      "name": "Diced Tomatoes",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "canned",
+      "price_aud": 1.4,
+      "unit": "400 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Canned diced tomatoes in their own juice, already chopped for sauces, chilli, and tray bakes. A cheaper, year-round alternative to fresh.",
+      "stock": 80,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5012",
+      "name": "Tuna in Springwater",
+      "brand": "Ocean Catch",
+      "category": "pantry",
+      "subcategory": "canned",
+      "price_aud": 2.2,
+      "unit": "185 g",
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "nut-free",
+        "high-protein"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "description": "Skipjack tuna chunks in springwater, no oil. Flake into sandwiches, pasta, or a quick rice bowl. Contains fish.",
+      "stock": 54,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5013",
+      "name": "Chickpeas",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "canned",
+      "price_aud": 1.3,
+      "unit": "400 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free",
+        "high-protein"
+      ],
+      "allergens": [],
+      "description": "Canned chickpeas, already cooked. Drain and roast, blend into hummus, or simmer in a tomato curry.",
+      "stock": 62,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5014",
+      "name": "Black Beans",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "canned",
+      "price_aud": 1.4,
+      "unit": "400 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free",
+        "high-protein"
+      ],
+      "allergens": [],
+      "description": "Canned black beans with a creamy interior and a thin skin. The backbone of burritos, chilli, and a quick rice-and-beans bowl.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5015",
+      "name": "Red Lentils",
+      "brand": "Harvest Vale",
+      "category": "pantry",
+      "subcategory": "dry-goods",
+      "price_aud": 3.2,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free",
+        "high-protein"
+      ],
+      "allergens": [],
+      "description": "Dried red lentils that cook in about 15 minutes and break down into a thick dhal or soup. No soaking required.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5016",
+      "name": "Coconut Milk",
+      "brand": "Lantern Bay",
+      "category": "pantry",
+      "subcategory": "canned",
+      "price_aud": 2.4,
+      "unit": "400 ml",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "lactose-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A rich canned coconut milk that separates into cream and liquid in the can \u2014 shake or stir. Essential for curries, laksa, and dairy-free baking.",
+      "stock": 36,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5017",
+      "name": "Chicken Stock Liquid",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "stocks",
+      "price_aud": 3.0,
+      "unit": "1 L",
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A ready-to-pour chicken stock with a clean roasted flavour and no added gluten. Use in gravies, risottos, and soups.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5018",
+      "name": "Raw Honey",
+      "brand": "Golden Mile Apiary",
+      "category": "pantry",
+      "subcategory": "spreads",
+      "price_aud": 8.5,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Unheated raw Australian honey with floral notes that vary by season. Drizzle over yoghurt, stir into tea, or use in marinades. Not suitable for infants under 12 months.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5019",
+      "name": "Smooth Peanut Butter",
+      "brand": "Gumnut Goods",
+      "category": "pantry",
+      "subcategory": "spreads",
+      "price_aud": 4.8,
+      "unit": "375 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "allergens": [
+        "peanuts"
+      ],
+      "description": "A smooth peanut butter made from roasted peanuts and a pinch of salt, with no added sugar. Contains peanuts.",
+      "stock": 34,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5020",
+      "name": "Crunchy Peanut Butter",
+      "brand": "Gumnut Goods",
+      "category": "pantry",
+      "subcategory": "spreads",
+      "price_aud": 4.8,
+      "unit": "375 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "allergens": [
+        "peanuts"
+      ],
+      "description": "The same roasted peanut base as the smooth jar, left crunchy with peanut pieces. Contains peanuts.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5021",
+      "name": "Salty Yeast Spread",
+      "brand": "Gumnut Goods",
+      "category": "pantry",
+      "subcategory": "spreads",
+      "price_aud": 4.2,
+      "unit": "270 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "A dark, salty yeast extract spread in the Australian breakfast tradition. A thin scrape on buttered toast is plenty; also useful in gravies. Contains gluten.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5022",
+      "name": "Plain Flour",
+      "brand": "Millstone",
+      "category": "pantry",
+      "subcategory": "baking",
+      "price_aud": 2.4,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "All-purpose plain wheat flour for sauces, dumplings, and recipes where you add your own raising agent. Contains gluten.",
+      "stock": 48,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5023",
+      "name": "Self Raising Flour",
+      "brand": "Millstone",
+      "category": "pantry",
+      "subcategory": "baking",
+      "price_aud": 2.5,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "Plain flour already blended with raising agents, ready for scones, cakes, and a quick batter. Contains gluten.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5024",
+      "name": "White Sugar",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "baking",
+      "price_aud": 2.2,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Fine white cane sugar for baking, sweetening tea, and making a simple syrup.",
+      "stock": 55,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5025",
+      "name": "Brown Sugar",
+      "brand": "Southern Pantry",
+      "category": "pantry",
+      "subcategory": "baking",
+      "price_aud": 2.8,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Soft brown sugar with a gentle molasses flavour. It stays moist in biscuits, crumbles, and barbecue sauces.",
+      "stock": 32,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5026",
+      "name": "Sea Salt Flakes",
+      "brand": "Kimberley Coast",
+      "category": "pantry",
+      "subcategory": "seasoning",
+      "price_aud": 3.5,
+      "unit": "250 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Crunchy sea salt flakes for finishing steaks, salads, and chocolate. Crush between your fingers as you season.",
+      "stock": 26,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5027",
+      "name": "Cracked Black Pepper",
+      "brand": "Harvest Vale",
+      "category": "pantry",
+      "subcategory": "seasoning",
+      "price_aud": 3.2,
+      "unit": "50 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Coarsely cracked black pepper with a warm, piney heat. Better as a finisher than a long-cooked spice.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5028",
+      "name": "Mild Curry Powder",
+      "brand": "Harvest Vale",
+      "category": "pantry",
+      "subcategory": "seasoning",
+      "price_aud": 2.8,
+      "unit": "50 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A mild Australian-style curry powder built on turmeric, coriander, and cumin. A starting blend for a gentle chicken or vegetable curry.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5029",
+      "name": "Mixed Herbs",
+      "brand": "Harvest Vale",
+      "category": "pantry",
+      "subcategory": "seasoning",
+      "price_aud": 2.4,
+      "unit": "20 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A dried mix of oregano, thyme, parsley, and marjoram. The shortcut seasoning for tomato sauces, meatballs, and roast vegetables.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5030",
+      "name": "Wheat Breakfast Biscuits",
+      "brand": "Millstone",
+      "category": "pantry",
+      "subcategory": "breakfast",
+      "price_aud": 5.2,
+      "unit": "1.2 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "nut-free",
+        "no-added-sugar"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "Whole-wheat breakfast biscuits in a large family pack. Eat with milk or plant milk; no added sugar in the biscuit itself. Contains gluten.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5031",
+      "name": "Traditional Rolled Oats",
+      "brand": "Millstone",
+      "category": "pantry",
+      "subcategory": "breakfast",
+      "price_aud": 3.8,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Traditional rolled oats for stovetop porridge, overnight oats, and Anzac-style baking. Processed in a facility that also handles wheat, but the oats themselves are not wheat.",
+      "stock": 36,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5032",
+      "name": "Toasted Muesli Almond & Honey",
+      "brand": "Harvest Vale",
+      "category": "pantry",
+      "subcategory": "breakfast",
+      "price_aud": 6.5,
+      "unit": "750 g",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "gluten",
+        "tree-nuts",
+        "milk"
+      ],
+      "description": "Oven-toasted muesli with rolled oats, honey, and roasted almonds. A crunchy breakfast with yoghurt or milk. Contains gluten, tree nuts, and milk solids.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5033",
+      "name": "Corn Flakes",
+      "brand": "Millstone",
+      "category": "pantry",
+      "subcategory": "breakfast",
+      "price_aud": 3.5,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "description": "Light, crisp corn flakes. A simple breakfast cereal; the malt flavouring means they are not gluten free.",
+      "stock": 26,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5034",
+      "name": "Malt Chocolate Drink Powder",
+      "brand": "Copper Kettle",
+      "category": "pantry",
+      "subcategory": "breakfast",
+      "price_aud": 7.5,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "description": "A malted chocolate drink powder to stir into cold or hot milk. A childhood classic in an Australian pantry. Contains gluten and milk.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5035",
+      "name": "English Breakfast Tea Bags",
+      "brand": "Nightjar Coffee",
+      "category": "pantry",
+      "subcategory": "tea-coffee",
+      "price_aud": 4.5,
+      "unit": "100 pack",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "One hundred tagged English breakfast tea bags with a robust, malty black tea blend. Strong enough for a splash of milk.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5036",
+      "name": "Ground Coffee Medium Roast",
+      "brand": "Nightjar Coffee",
+      "category": "pantry",
+      "subcategory": "tea-coffee",
+      "price_aud": 12.0,
+      "unit": "250 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A medium-roast ground coffee with notes of cocoa and brown sugar, ground for a drip machine or plunger.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5037",
+      "name": "Instant Coffee",
+      "brand": "Nightjar Coffee",
+      "category": "pantry",
+      "subcategory": "tea-coffee",
+      "price_aud": 8.0,
+      "unit": "150 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A freeze-dried instant coffee with a clean, rounded flavour. Dissolves in hot water for a no-fuss mug.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5038",
+      "name": "Gluten Free Pasta Spirals",
+      "brand": "Banksia",
+      "category": "pantry",
+      "subcategory": "pasta-rice",
+      "price_aud": 3.8,
+      "unit": "400 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Corn-and-rice spirals that cook to a firm bite and hold a sauce without going slimy. A gluten-free pantry staple.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5039",
+      "name": "Tamari Soy Sauce",
+      "brand": "Lantern Bay",
+      "category": "pantry",
+      "subcategory": "sauces",
+      "price_aud": 4.5,
+      "unit": "250 ml",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "description": "A naturally brewed tamari with a richer, less sharp flavour than regular soy. Wheat-free and gluten-free; contains soy.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-5040",
+      "name": "Crunchy Tahini",
+      "brand": "Wattle & Co",
+      "category": "pantry",
+      "subcategory": "spreads",
+      "price_aud": 6.0,
+      "unit": "375 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "allergens": [
+        "sesame"
+      ],
+      "description": "A sesame tahini with a slightly crunchy texture from unhulled seeds. Stir into dressings, hummus, or a drizzle for roast vegetables. Contains sesame.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6001",
+      "name": "Frozen Garden Peas",
+      "brand": "Harvest Vale",
+      "category": "frozen",
+      "subcategory": "vegetables",
+      "price_aud": 2.8,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A one-kilogram bag of frozen garden peas, picked and frozen quickly to keep their sweetness. Tip straight into soups, pastas, and a side of mash.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6002",
+      "name": "Frozen Mixed Vegetables",
+      "brand": "Harvest Vale",
+      "category": "frozen",
+      "subcategory": "vegetables",
+      "price_aud": 2.6,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A mix of carrots, peas, corn, and beans, frozen in a family bag. The emergency vegetable drawer for fried rice and quick stews.",
+      "stock": 36,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6003",
+      "name": "Frozen Mixed Berries",
+      "brand": "Sunny Ridge",
+      "category": "frozen",
+      "subcategory": "fruit",
+      "price_aud": 6.5,
+      "unit": "500 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A frozen mix of strawberries, blueberries, and raspberries. Blend into smoothies or warm into a quick compote; no need to thaw first.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6004",
+      "name": "Vanilla Ice Cream",
+      "brand": "Driftwood Dairy",
+      "category": "frozen",
+      "subcategory": "ice-cream",
+      "price_aud": 6.8,
+      "unit": "2 L",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "A two-litre tub of vanilla ice cream with a real vanilla flavour and a creamy scoop. Contains milk.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6005",
+      "name": "Frozen Margherita Pizza",
+      "brand": "Little Batch",
+      "category": "frozen",
+      "subcategory": "meals",
+      "price_aud": 7.5,
+      "unit": "each",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "description": "A thin-crust frozen margherita pizza with tomato, mozzarella, and basil. Bake from frozen for a Friday night shortcut. Contains gluten and milk.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6006",
+      "name": "Oven Chips Straight Cut",
+      "brand": "Harvest Vale",
+      "category": "frozen",
+      "subcategory": "potato",
+      "price_aud": 4.2,
+      "unit": "1 kg",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Straight-cut oven chips that bake up crisp on the outside. Check the pack if you need a certified gluten-free fry; they are otherwise vegan.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6007",
+      "name": "Crumbed Fish Fingers",
+      "brand": "Ocean Catch",
+      "category": "frozen",
+      "subcategory": "seafood",
+      "price_aud": 6.0,
+      "unit": "400 g",
+      "dietary_tags": [
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "fish"
+      ],
+      "description": "Classic crumbed fish fingers for a quick kids' dinner. Oven-bake until golden; contain gluten and fish.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6008",
+      "name": "Pork and Chive Dumplings",
+      "brand": "Lantern Bay",
+      "category": "frozen",
+      "subcategory": "meals",
+      "price_aud": 7.8,
+      "unit": "500 g",
+      "dietary_tags": [
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "soy",
+        "sesame"
+      ],
+      "description": "Frozen pork and chive dumplings with a thin wheat wrapper. Steam or pan-fry; serve with soy and vinegar. Contain gluten, soy, and sesame.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6010",
+      "name": "Garlic Bread Slices",
+      "brand": "Fern & Flour",
+      "category": "frozen",
+      "subcategory": "bakery",
+      "price_aud": 4.0,
+      "unit": "6 pack",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "description": "Six frozen garlic bread slices with a parsley-butter topping. Bake until the edges crisp. Contains gluten and milk.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6011",
+      "name": "Ice Cream Sandwiches Vanilla",
+      "brand": "Little Batch",
+      "category": "frozen",
+      "subcategory": "ice-cream",
+      "price_aud": 6.5,
+      "unit": "6 pack",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "gluten",
+        "milk",
+        "soy"
+      ],
+      "description": "Six vanilla ice cream sandwiches between soft chocolate biscuits. A freezer-door treat. Contain gluten, milk, and soy.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6012",
+      "name": "Party Meat Pies",
+      "brand": "Ironbark",
+      "category": "frozen",
+      "subcategory": "meals",
+      "price_aud": 8.5,
+      "unit": "12 pack",
+      "dietary_tags": [
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "milk",
+        "soy",
+        "sulphites"
+      ],
+      "description": "A dozen party-size minced beef pies with a flaky pastry lid. The classic Australian freezer stash for gatherings. Contain gluten, milk, soy, and sulphites.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-6013",
+      "name": "Party Sausage Rolls",
+      "brand": "Ironbark",
+      "category": "frozen",
+      "subcategory": "meals",
+      "price_aud": 8.0,
+      "unit": "12 pack",
+      "dietary_tags": [
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "milk",
+        "soy",
+        "sulphites"
+      ],
+      "description": "Twelve party sausage rolls with a seasoned beef-and-pork filling wrapped in puff pastry. Bake from frozen until deep gold. Contain gluten, milk, soy, and sulphites.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7001",
+      "name": "Salted Potato Crisps",
+      "brand": "Blue Wren",
+      "category": "snacks",
+      "subcategory": "crisps",
+      "price_aud": 3.5,
+      "unit": "170 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Thin salted potato crisps with a clean crunch and no flavour dust. A shareable 170 g bag for movie night.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7002",
+      "name": "Corn Chips Original",
+      "brand": "Blue Wren",
+      "category": "snacks",
+      "subcategory": "crisps",
+      "price_aud": 3.2,
+      "unit": "200 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Plain salted corn chips, sturdy enough for guacamole and salsa without snapping in the dip.",
+      "stock": 36,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7003",
+      "name": "Sea Salt Rice Crackers",
+      "brand": "Banksia",
+      "category": "snacks",
+      "subcategory": "crackers",
+      "price_aud": 2.8,
+      "unit": "100 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Light, gluten-free rice crackers with a dusting of sea salt. A gentle snack on their own or with cheese.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7004",
+      "name": "Milk Chocolate Block",
+      "brand": "Corkwood",
+      "category": "snacks",
+      "subcategory": "confectionery",
+      "price_aud": 5.0,
+      "unit": "180 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "milk",
+        "soy"
+      ],
+      "description": "A creamy milk chocolate block that snaps cleanly and melts softly. A pantry classic for after dinner or baking. Contains milk and soy lecithin.",
+      "stock": 34,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7005",
+      "name": "Chocolate Cream Biscuits",
+      "brand": "Corkwood",
+      "category": "snacks",
+      "subcategory": "biscuits",
+      "price_aud": 4.2,
+      "unit": "200 g",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "milk",
+        "soy"
+      ],
+      "description": "Dark chocolate biscuits sandwiched with a vanilla cream filling, in the spirit of a classic Australian biscuit tin. Contain gluten, milk, and soy.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7006",
+      "name": "Honey Oat Muesli Bars",
+      "brand": "Harvest Vale",
+      "category": "snacks",
+      "subcategory": "bars",
+      "price_aud": 5.0,
+      "unit": "6 pack",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "description": "Six chewy honey-and-oat muesli bars for lunchboxes and hikes. Contain gluten and milk solids; they are nut-free but not baked in a nut-free facility.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7007",
+      "name": "Lightly Salted Popcorn",
+      "brand": "Blue Wren",
+      "category": "snacks",
+      "subcategory": "popcorn",
+      "price_aud": 2.5,
+      "unit": "80 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Air-popped popcorn with a light salt finish and no butter. A lower-guilt movie snack in a share bag.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7009",
+      "name": "Mixed Berry Fruit Straps",
+      "brand": "Sunny Ridge",
+      "category": "snacks",
+      "subcategory": "fruit",
+      "price_aud": 3.8,
+      "unit": "8 pack",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Eight mixed-berry fruit straps made from concentrated fruit puree, with no added gelatine. A lunchbox sweet without chocolate.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7010",
+      "name": "Roasted Mixed Nuts",
+      "brand": "Gumnut Goods",
+      "category": "snacks",
+      "subcategory": "nuts",
+      "price_aud": 7.5,
+      "unit": "250 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "allergens": [
+        "peanuts",
+        "tree-nuts"
+      ],
+      "description": "A roasted mix of peanuts, almonds, cashews, and pecans with a light salt. A high-protein snack; contains peanuts and tree nuts.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7011",
+      "name": "Dark Chocolate 70 Percent",
+      "brand": "Corkwood",
+      "category": "snacks",
+      "subcategory": "confectionery",
+      "price_aud": 5.5,
+      "unit": "100 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "milk",
+        "soy"
+      ],
+      "description": "A 70 percent dark chocolate bar with a clean cocoa bitterness and very little sweetness. May contain traces of milk; contains soy lecithin.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-7012",
+      "name": "Soft Fruit Gummies",
+      "brand": "Corkwood",
+      "category": "snacks",
+      "subcategory": "confectionery",
+      "price_aud": 3.5,
+      "unit": "160 g",
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Soft, fruity gummies in mixed flavours. They contain gelatine, so they are not vegetarian or vegan, but they are free from gluten, dairy, and nuts.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8002",
+      "name": "Still Spring Water Multipack",
+      "brand": "Alpine Springs",
+      "category": "beverages",
+      "subcategory": "water",
+      "price_aud": 5.5,
+      "unit": "24 x 600 ml",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A 24-pack of 600 ml still spring water bottles. The household and office stash.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8003",
+      "name": "Sparkling Mineral Water",
+      "brand": "Alpine Springs",
+      "category": "beverages",
+      "subcategory": "water",
+      "price_aud": 1.8,
+      "unit": "1 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A litre bottle of gently sparkling mineral water with fine bubbles. A cleaner alternative to soft drink at the table.",
+      "stock": 36,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8004",
+      "name": "Orange Juice Pulp Free",
+      "brand": "Coastal Gold",
+      "category": "beverages",
+      "subcategory": "juice",
+      "price_aud": 4.5,
+      "unit": "2 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A two-litre bottle of pulp-free orange juice, not from concentrate. Bright and sweet; shake before pouring.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8005",
+      "name": "Cloudy Apple Juice",
+      "brand": "Sunny Ridge",
+      "category": "beverages",
+      "subcategory": "juice",
+      "price_aud": 4.2,
+      "unit": "2 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Cloudy apple juice with a fresh-pressed look and a gently tart finish. Serve chilled; sediment is normal, so invert the bottle first.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8006",
+      "name": "Cola Soft Drink",
+      "brand": "Billabong Brew",
+      "category": "beverages",
+      "subcategory": "soft-drink",
+      "price_aud": 2.2,
+      "unit": "1.25 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A classic cola-flavoured soft drink in a 1.25 L bottle. Cold, fizzy, and not affiliated with any global cola brand.",
+      "stock": 48,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8007",
+      "name": "Lemonade Soft Drink",
+      "brand": "Billabong Brew",
+      "category": "beverages",
+      "subcategory": "soft-drink",
+      "price_aud": 2.2,
+      "unit": "1.25 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A clear, lemon-flavoured soft drink with a sharp citrus finish. Mix with a dash of bitters for a pub-style lemonade.",
+      "stock": 40,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8008",
+      "name": "Peach Iced Tea",
+      "brand": "Billabong Brew",
+      "category": "beverages",
+      "subcategory": "tea",
+      "price_aud": 3.0,
+      "unit": "1.5 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A lightly sweetened peach iced tea, already brewed and chilled. A less fizzy fridge drink for warm afternoons.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8010",
+      "name": "Ginger Beer",
+      "brand": "Billabong Brew",
+      "category": "beverages",
+      "subcategory": "soft-drink",
+      "price_aud": 2.8,
+      "unit": "4 x 375 ml",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "Four bottles of fiery, non-alcoholic ginger beer with a real ginger heat. Excellent on its own or in a mocktail.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8011",
+      "name": "Coconut Water",
+      "brand": "Lantern Bay",
+      "category": "beverages",
+      "subcategory": "juice",
+      "price_aud": 3.0,
+      "unit": "1 L",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free",
+        "no-added-sugar"
+      ],
+      "allergens": [],
+      "description": "Pure coconut water with no added sugar and a naturally sweet, slightly nutty taste. A gentle hydrator after exercise.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8012",
+      "name": "Cold Brew Coffee Bottle",
+      "brand": "Nightjar Coffee",
+      "category": "beverages",
+      "subcategory": "coffee",
+      "price_aud": 4.5,
+      "unit": "330 ml",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A ready-to-drink cold brew coffee, unsweetened and bottled. Smooth, low-acid, and easy to pour over ice.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-8013",
+      "name": "Ginger Kombucha",
+      "brand": "Sandstone",
+      "category": "beverages",
+      "subcategory": "kombucha",
+      "price_aud": 4.2,
+      "unit": "330 ml",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A gently sparkling ginger kombucha with a tart, fermented edge. Keep refrigerated and open slowly.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9001",
+      "name": "Lemon Dishwashing Liquid",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "cleaning",
+      "price_aud": 3.5,
+      "unit": "900 ml",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A lemon-scented dishwashing liquid that cuts grease in the sink and is not tested on animals. A little goes a long way.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9002",
+      "name": "Laundry Powder Front Loader",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "laundry",
+      "price_aud": 11.0,
+      "unit": "2 kg",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A low-suds laundry powder formulated for front loaders. Fragrance is mild; suitable for everyday cottons and mixed loads.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9003",
+      "name": "Laundry Liquid Sensitive",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "laundry",
+      "price_aud": 12.5,
+      "unit": "2 L",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A fragrance-free, dye-free laundry liquid for sensitive skin. Works in both front and top loaders.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9004",
+      "name": "Toilet Paper 12 Pack",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "paper",
+      "price_aud": 8.5,
+      "unit": "12 rolls",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A 12-pack of two-ply toilet paper with a decent sheet count per roll. The everyday cupboard staple.",
+      "stock": 34,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9005",
+      "name": "Paper Towels 2 Pack",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "paper",
+      "price_aud": 4.5,
+      "unit": "2 rolls",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "Two thick paper towel rolls that hold up to a spill without falling apart. Useful on benches and in the car.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9006",
+      "name": "Kitchen Bin Bags 30 L",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "bags",
+      "price_aud": 5.0,
+      "unit": "50 pack",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "Fifty 30-litre kitchen bin bags with a simple tie top. Sized for a standard under-bench bin.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9007",
+      "name": "All Purpose Cleaner Spray",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "cleaning",
+      "price_aud": 4.0,
+      "unit": "750 ml",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A ready-to-use all-purpose spray for benches, splashbacks, and doors. Cuts everyday grime without a heavy perfume.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9008",
+      "name": "Antibacterial Surface Wipes",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "cleaning",
+      "price_aud": 4.8,
+      "unit": "80 pack",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A tub of 80 antibacterial surface wipes for benches, switches, and the microwave door. Keep the lid snapped shut so they do not dry out.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9010",
+      "name": "Aluminium Foil",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "wraps",
+      "price_aud": 3.8,
+      "unit": "30 m",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A 30-metre roll of aluminium foil for covering trays, wrapping leftovers, and lining a barbecue.",
+      "stock": 26,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9011",
+      "name": "Baking Paper",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "wraps",
+      "price_aud": 4.2,
+      "unit": "30 m",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "Non-stick baking paper in a 30-metre roll. Line trays for biscuits, roast vegetables, and a less miserable wash-up.",
+      "stock": 24,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9013",
+      "name": "Dishwasher Tablets",
+      "brand": "Home Kitchen Co",
+      "category": "household",
+      "subcategory": "cleaning",
+      "price_aud": 9.5,
+      "unit": "30 pack",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "Thirty all-in-one dishwasher tablets with rinse aid built in. Unwrap and place in the dispenser; not for hand washing.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9101",
+      "name": "Everyday Shampoo",
+      "brand": "Amberfield",
+      "category": "personal-care",
+      "subcategory": "hair",
+      "price_aud": 6.5,
+      "unit": "400 ml",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A gentle everyday shampoo for normal hair, with a light citrus scent and no heavy silicones.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9102",
+      "name": "Everyday Conditioner",
+      "brand": "Amberfield",
+      "category": "personal-care",
+      "subcategory": "hair",
+      "price_aud": 6.5,
+      "unit": "400 ml",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "The matching conditioner, designed to detangle without weighing hair down. Use on mid-lengths and ends.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9103",
+      "name": "Citrus Body Wash",
+      "brand": "Amberfield",
+      "category": "personal-care",
+      "subcategory": "body",
+      "price_aud": 5.5,
+      "unit": "400 ml",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A fresh citrus body wash that foams well and rinses clean. Suitable for daily use.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9104",
+      "name": "Mint Fluoride Toothpaste",
+      "brand": "Amberfield",
+      "category": "personal-care",
+      "subcategory": "oral",
+      "price_aud": 4.0,
+      "unit": "110 g",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [],
+      "description": "A mint fluoride toothpaste for twice-daily brushing. Freshens breath and is suitable for the whole family over six years.",
+      "stock": 28,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9108",
+      "name": "Hand Sanitiser Gel",
+      "brand": "Amberfield",
+      "category": "personal-care",
+      "subcategory": "hand",
+      "price_aud": 3.8,
+      "unit": "250 ml",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A 250 ml pump of alcohol-based hand sanitiser gel. Keep one in the bag and one by the door.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9109",
+      "name": "Facial Tissues 6 Pack",
+      "brand": "Home Kitchen Co",
+      "category": "personal-care",
+      "subcategory": "paper",
+      "price_aud": 4.2,
+      "unit": "6 boxes",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "Six boxes of soft two-ply facial tissues. The hay-fever and winter-cold drawer filler.",
+      "stock": 22,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9110",
+      "name": "Light Moisturiser",
+      "brand": "Amberfield",
+      "category": "personal-care",
+      "subcategory": "skin",
+      "price_aud": 8.5,
+      "unit": "150 ml",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A light, fast-absorbing face and body moisturiser with no heavy fragrance. Suitable for normal to combination skin.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9111",
+      "name": "SPF 50 Plus Sunscreen",
+      "brand": "Coastal Gold",
+      "category": "personal-care",
+      "subcategory": "sun",
+      "price_aud": 12.0,
+      "unit": "200 ml",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A broad-spectrum SPF 50+ lotion for face and body, water resistant for 40 minutes. An Australian summer essential; reapply often.",
+      "stock": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9112",
+      "name": "SPF Lip Balm",
+      "brand": "Coastal Gold",
+      "category": "personal-care",
+      "subcategory": "sun",
+      "price_aud": 4.5,
+      "unit": "each",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "A stick lip balm with SPF 30 and a hint of vanilla. Contains lanolin derived from wool, so it is vegetarian but not vegan.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9201",
+      "name": "Nappies Size 3 Mid Pack",
+      "brand": "Little Batch",
+      "category": "baby",
+      "subcategory": "nappies",
+      "price_aud": 18.0,
+      "unit": "48 pack",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A mid pack of size 3 nappies for babies roughly 6 to 11 kg, with a wetness indicator and stretchy sides.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9202",
+      "name": "Fragrance Free Baby Wipes",
+      "brand": "Little Batch",
+      "category": "baby",
+      "subcategory": "wipes",
+      "price_aud": 4.5,
+      "unit": "80 pack",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "Fragrance-free, unscented baby wipes that are also useful for sticky hands and faces on the go.",
+      "stock": 26,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9203",
+      "name": "Infant Formula Stage 1",
+      "brand": "Little Batch",
+      "category": "baby",
+      "subcategory": "formula",
+      "price_aud": 24.0,
+      "unit": "900 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk",
+        "soy"
+      ],
+      "description": "A stage 1 infant formula from birth, to be prepared exactly as the tin directs. This is not a substitute for professional feeding advice. Contains milk and soy.",
+      "stock": 8,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9204",
+      "name": "Pear and Apple Baby Puree",
+      "brand": "Little Batch",
+      "category": "baby",
+      "subcategory": "food",
+      "price_aud": 1.8,
+      "unit": "120 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A simple pear and apple puree pouch for babies starting solids, with no added sugar or salt. Always check age guidance on the pack.",
+      "stock": 30,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9205",
+      "name": "Gentle Baby Shampoo",
+      "brand": "Little Batch",
+      "category": "baby",
+      "subcategory": "bath",
+      "price_aud": 6.0,
+      "unit": "250 ml",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A tear-reduced, fragrance-light baby shampoo and wash in one. Gentle enough for daily baths.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9301",
+      "name": "Adult Dry Dog Food Chicken",
+      "brand": "Tallwood",
+      "category": "pet",
+      "subcategory": "dog",
+      "price_aud": 22.0,
+      "unit": "8 kg",
+      "dietary_tags": [],
+      "allergens": [],
+      "description": "An 8 kg bag of adult dry dog food with chicken as the first ingredient. Complete and balanced for adult dogs; transition slowly from the previous food.",
+      "stock": 10,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9302",
+      "name": "Wet Dog Food Tins Mixed",
+      "brand": "Tallwood",
+      "category": "pet",
+      "subcategory": "dog",
+      "price_aud": 8.5,
+      "unit": "6 x 400 g",
+      "dietary_tags": [],
+      "allergens": [],
+      "description": "Six mixed-flavour wet dog food tins to spoon over dry food or serve on their own. A useful topper for fussy eaters.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9303",
+      "name": "Adult Dry Cat Food",
+      "brand": "Tallwood",
+      "category": "pet",
+      "subcategory": "cat",
+      "price_aud": 16.0,
+      "unit": "3 kg",
+      "dietary_tags": [],
+      "allergens": [
+        "fish"
+      ],
+      "description": "A 3 kg bag of adult dry cat food with a fish and chicken recipe. Complete nutrition for indoor and outdoor adult cats. Contains fish.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9304",
+      "name": "Wet Cat Food Pouches",
+      "brand": "Tallwood",
+      "category": "pet",
+      "subcategory": "cat",
+      "price_aud": 7.5,
+      "unit": "12 x 85 g",
+      "dietary_tags": [],
+      "allergens": [
+        "fish"
+      ],
+      "description": "Twelve gravy pouches in mixed fish and chicken flavours. A convenient wet meal or topper. Contain fish.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9305",
+      "name": "Clumping Cat Litter",
+      "brand": "Tallwood",
+      "category": "pet",
+      "subcategory": "litter",
+      "price_aud": 9.0,
+      "unit": "10 L",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [],
+      "description": "A 10-litre bag of unscented clumping clay litter that forms firm scoops and controls odour when the tray is kept clean.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9306",
+      "name": "Dog Training Treats",
+      "brand": "Tallwood",
+      "category": "pet",
+      "subcategory": "dog",
+      "price_aud": 5.5,
+      "unit": "200 g",
+      "dietary_tags": [],
+      "allergens": [],
+      "description": "Small, soft dog training treats with a strong aroma, sized for repeated rewards on a walk or in a class.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9401",
+      "name": "Hot Roast Chicken",
+      "brand": "North Wharf",
+      "category": "deli-ready",
+      "subcategory": "ready-meals",
+      "price_aud": 12.0,
+      "unit": "each",
+      "dietary_tags": [
+        "gluten-free",
+        "high-protein",
+        "nut-free"
+      ],
+      "allergens": [],
+      "description": "A seasoned whole roast chicken, sold hot from the deli counter and also available chilled the next morning. A last-minute dinner with salad or bread.",
+      "stock": 8,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9402",
+      "name": "Fresh Fettuccine",
+      "brand": "Yarra Mill",
+      "category": "deli-ready",
+      "subcategory": "pasta",
+      "price_aud": 5.5,
+      "unit": "400 g",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "egg"
+      ],
+      "description": "Fresh egg fettuccine that cooks in two to three minutes. Toss with butter, pepper, and parmesan, or a slow ragu. Contains gluten and egg.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9403",
+      "name": "Classic Hummus",
+      "brand": "Wattle & Co",
+      "category": "deli-ready",
+      "subcategory": "dips",
+      "price_aud": 4.0,
+      "unit": "200 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free"
+      ],
+      "allergens": [
+        "sesame"
+      ],
+      "description": "A classic chickpea hummus with tahini, lemon, and olive oil. A fridge staple for lunchboxes and mezze. Contains sesame.",
+      "stock": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9404",
+      "name": "Roast Capsicum Dip",
+      "brand": "Wattle & Co",
+      "category": "deli-ready",
+      "subcategory": "dips",
+      "price_aud": 4.0,
+      "unit": "200 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "A smoky roast capsicum dip loosened with a little yoghurt. Serve with crackers or vegetable sticks. Contains milk.",
+      "stock": 14,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9405",
+      "name": "Sliced Champagne Ham",
+      "brand": "North Wharf",
+      "category": "deli-ready",
+      "subcategory": "sliced-meats",
+      "price_aud": 6.5,
+      "unit": "200 g",
+      "dietary_tags": [
+        "gluten-free",
+        "nut-free",
+        "dairy-free",
+        "high-protein"
+      ],
+      "allergens": [],
+      "description": "Thinly sliced champagne-style ham, mildly sweet and ready for sandwiches. Keep refrigerated and use within a few days of opening.",
+      "stock": 16,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9406",
+      "name": "Sliced Turkey Breast",
+      "brand": "North Wharf",
+      "category": "deli-ready",
+      "subcategory": "sliced-meats",
+      "price_aud": 6.8,
+      "unit": "200 g",
+      "dietary_tags": [
+        "gluten-free",
+        "nut-free",
+        "dairy-free",
+        "high-protein"
+      ],
+      "allergens": [],
+      "description": "Lean sliced turkey breast with a clean, lightly seasoned flavour. A lighter sandwich filling than ham.",
+      "stock": 12,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9407",
+      "name": "Classic Coleslaw",
+      "brand": "North Wharf",
+      "category": "deli-ready",
+      "subcategory": "salads",
+      "price_aud": 4.5,
+      "unit": "400 g",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "egg",
+        "milk"
+      ],
+      "description": "A creamy cabbage-and-carrot coleslaw in a mayonnaise dressing. A barbecue side that is not vegan; contains egg and milk.",
+      "stock": 10,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9408",
+      "name": "Pumpkin and Ginger Soup",
+      "brand": "North Wharf",
+      "category": "deli-ready",
+      "subcategory": "soup",
+      "price_aud": 5.5,
+      "unit": "600 g",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "A chilled fresh soup of roasted pumpkin and ginger, ready to heat. Smooth and mildly spiced; contains cream (milk).",
+      "stock": 9,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9409",
+      "name": "Garden Salad Kit",
+      "brand": "Greenleaf Organics",
+      "category": "deli-ready",
+      "subcategory": "salads",
+      "price_aud": 5.0,
+      "unit": "each",
+      "dietary_tags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "description": "A bagged garden salad kit with leaves, a sachet of dressing, and a sprinkle of cheese. Toss just before serving. Contains milk in the dressing and cheese.",
+      "stock": 11,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9410",
+      "name": "Spinach and Feta Quiche",
+      "brand": "Little Batch",
+      "category": "deli-ready",
+      "subcategory": "ready-meals",
+      "price_aud": 7.5,
+      "unit": "each",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "egg",
+        "milk"
+      ],
+      "description": "A small spinach and feta quiche with a shortcrust base, ready to eat cold or warmed. Contains gluten, egg, and milk.",
+      "stock": 8,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9411",
+      "name": "Salmon and Avocado Sushi Pack",
+      "brand": "North Wharf",
+      "category": "deli-ready",
+      "subcategory": "sushi",
+      "price_aud": 9.5,
+      "unit": "each",
+      "dietary_tags": [
+        "dairy-free",
+        "nut-free"
+      ],
+      "allergens": [
+        "fish",
+        "soy",
+        "sesame"
+      ],
+      "description": "A chilled pack of salmon and avocado rolls with soy sauce and pickled ginger. Eat the same day; contains fish, soy, and sesame. Keep refrigerated.",
+      "stock": 6,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9412",
+      "name": "Ricotta and Spinach Ravioli",
+      "brand": "Yarra Mill",
+      "category": "deli-ready",
+      "subcategory": "pasta",
+      "price_aud": 7.0,
+      "unit": "350 g",
+      "dietary_tags": [
+        "vegetarian",
+        "nut-free"
+      ],
+      "allergens": [
+        "gluten",
+        "egg",
+        "milk"
+      ],
+      "description": "Fresh ravioli filled with ricotta and spinach. Boil for three minutes and finish with butter and sage, or a light tomato sauce. Contains gluten, egg, and milk.",
+      "stock": 10,
+      "currency": "AUD"
+    },
+    {
+      "id": "HB-9413",
+      "name": "Falafel Mix Ready to Fry",
+      "brand": "Wattle & Co",
+      "category": "deli-ready",
+      "subcategory": "ready-meals",
+      "price_aud": 5.5,
+      "unit": "300 g",
+      "dietary_tags": [
+        "vegan",
+        "vegetarian",
+        "dairy-free"
+      ],
+      "allergens": [
+        "gluten",
+        "sesame"
+      ],
+      "description": "A chilled falafel mix, already seasoned, ready to shape and fry or bake. Serve in wraps with hummus and salad. Contains gluten and sesame.",
+      "stock": 8,
+      "currency": "AUD"
+    }
+  ]
+}
