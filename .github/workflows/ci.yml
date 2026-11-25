@@ -39,13 +39,17 @@ jobs:
         id: keys
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          if [ -n "$OPENAI_API_KEY" ] || [ -n "$AZURE_OPENAI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
+          if [ -n "$OPENAI_API_KEY" ] || [ -n "$XAI_API_KEY" ] || [ -n "$AZURE_OPENAI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
             echo "has_key=true" >> "$GITHUB_OUTPUT"
           else
             echo "has_key=false" >> "$GITHUB_OUTPUT"
+          fi
+          if [ -z "$OPENAI_API_KEY" ] && [ -n "$XAI_API_KEY" ]; then
+            echo "llm_provider=xai" >> "$GITHUB_OUTPUT"
           fi
       - uses: actions/checkout@v4
         if: steps.keys.outputs.has_key == 'true'
@@ -62,6 +66,8 @@ jobs:
         if: steps.keys.outputs.has_key == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          LLM_PROVIDER: ${{ steps.keys.outputs.llm_provider }}
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
           AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
           AZURE_OPENAI_DEPLOYMENT: ${{ secrets.AZURE_OPENAI_DEPLOYMENT }}

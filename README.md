@@ -46,11 +46,36 @@ To run the real agent once you implement it:
 
 ```bash
 cp .env.example .env
-# add OPENAI_API_KEY or AZURE_OPENAI_* or ANTHROPIC_API_KEY
+# add OPENAI_API_KEY, or XAI_API_KEY (and LLM_PROVIDER=xai), or AZURE_OPENAI_*, or ANTHROPIC_API_KEY
 harbour-basket chat "I want some ripe avocados for smashed avo"
 make eval
 # later: python -m shopping_agent.evals.runner --agent real
 ```
+
+### Using xAI Grok
+
+xAI's API is [OpenAI-compatible](https://docs.x.ai/docs/overview). Get a key at
+[console.x.ai](https://console.x.ai/), then in `.env`:
+
+```bash
+LLM_PROVIDER=xai
+XAI_API_KEY=your-key
+# optional overrides; these are the defaults
+# LLM_MODEL=grok-4.20-non-reasoning   # cheap, fast, tool-calling
+# JUDGE_MODEL=grok-4.7                # stronger model for the LLM-as-judge
+```
+
+`get_provider_endpoint()` in `src/shopping_agent/llm/client.py` fills in
+`base_url=https://api.x.ai/v1`, the key, and the model. When you implement
+the weekend TODO, construct the official OpenAI SDK client with those values —
+one implementation covers both OpenAI and Grok.
+
+Defaults were taken from [xAI models](https://docs.x.ai/docs/models):
+`grok-4.20-non-reasoning` is the documented high-speed, non-reasoning alias
+($1.25 / $2.50 per 1M tokens); `grok-4.7` is the flagship judge model
+($2.00 / $6.00 per 1M). To run the optional CI eval job on Grok, add an
+`XAI_API_KEY` repository secret (Settings → Secrets and variables → Actions).
+If that is the only chat key present, CI sets `LLM_PROVIDER=xai` for you.
 
 ## Architecture
 
@@ -138,7 +163,7 @@ bullets below are starting points, not the final write-up. -->
   plus a handful of policy sections. Cosine over a matrix is enough. See
   "What I would do in production" for the scale-up path.
 - **Provider-agnostic LLM wrapper.** The loop depends on `LLMClient.complete()`
-  so switching OpenAI, Azure OpenAI, or Anthropic is a factory change.
+  so switching OpenAI, xAI (Grok), Azure OpenAI, or Anthropic is a factory change.
 - **Evals before polish.** Tool-call agreement is scored even before the
   LLM-as-judge is implemented, so you can iterate on Saturday afternoon.
 

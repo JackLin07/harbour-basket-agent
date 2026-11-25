@@ -9,7 +9,7 @@ at a real file.
 
 Before you start: `cp .env.example .env` and add one API key. OpenAI is the
 most documented path for tool calling; Azure OpenAI is the closest match to
-the job listing. Then:
+the job listing; xAI Grok is also supported (OpenAI-compatible). Then:
 
 ```bash
 python3 -m venv .venv
@@ -27,6 +27,8 @@ harbour-basket search "avocado"   # sanity check the backend
 
 - OpenAI function calling:
   https://developers.openai.com/api/docs/guides/function-calling
+- xAI Grok (OpenAI-compatible, if you set `LLM_PROVIDER=xai`):
+  https://docs.x.ai/docs/overview
 - Anthropic tool use (if you pick Claude):
   https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview
 
@@ -40,6 +42,13 @@ File: [`src/shopping_agent/llm/client.py`](src/shopping_agent/llm/client.py)
 Implement **one** of `OpenAILLMClient`, `AzureOpenAILLMClient`, or
 `AnthropicLLMClient`, and wire it in `build_client()`. Keep the
 `LLMResponse` / `ToolCall` shapes so the loop stays provider-agnostic.
+
+If you want to use Grok, set `LLM_PROVIDER=xai` and `XAI_API_KEY` in `.env`.
+xAI's API is OpenAI-compatible ([docs](https://docs.x.ai/docs/overview),
+endpoint `https://api.x.ai/v1`), so the same `OpenAILLMClient` works for both
+OpenAI and xAI when you pass `base_url`. Call `get_provider_endpoint(settings)`
+to get the base URL, key, and model (defaults: `grok-4.20-non-reasoning` for
+the agent, `grok-4.7` for the judge; override with `LLM_MODEL` / `JUDGE_MODEL`).
 
 Sanity check with a tiny script or a `python` REPL: send "say hello" with no
 tools and print `response.text`.
@@ -180,9 +189,10 @@ make docker-build   # if Docker is installed
 ```
 
 GitHub Actions already lints and tests, and has an optional eval job gated
-on an API-key secret. Record a 60–90 second CLI walkthrough (search, add to
-cart, check `ORD-5002`, ask about delivery fees) or a few terminal screenshots
-for the README.
+on an API-key secret (`OPENAI_API_KEY` or `XAI_API_KEY`). If only the xAI
+secret is set, the job passes `LLM_PROVIDER=xai`. Record a 60–90 second CLI
+walkthrough (search, add to cart, check `ORD-5002`, ask about delivery fees)
+or a few terminal screenshots for the README.
 
 ### 13:00–15:00 — README in your own voice
 
