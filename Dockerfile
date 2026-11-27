@@ -1,5 +1,5 @@
 # Lightweight runtime image. Build with: make docker-build
-# The agent itself is a weekend TODO; this image is ready once you fill it in.
+# Runtime image for the CLI and, once implemented, the agent and MCP server.
 FROM python:3.12-slim
 
 WORKDIR /app

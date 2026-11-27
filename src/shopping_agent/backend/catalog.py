@@ -80,7 +80,7 @@ class Catalog:
 
         Keyword search is a simple token overlap over name, brand, category,
         tags, allergens, and description. This is *not* RAG; the retriever
-        (weekend TODO) should sit in front when the query is semantic.
+        should sit in front when the query is semantic.
         """
         required_tags = {tag.lower() for tag in (dietary_tags or [])}
         banned_allergens = {tag.lower() for tag in (allergen_free or [])}

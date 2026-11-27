@@ -1,7 +1,7 @@
 # Harbour Basket eval set
-# Prompts, expected tool names, and rubrics for the weekend agent.
+# Prompts, expected tool names, and rubrics for the shopping agent.
 # `expected_tools` is scored deterministically by the runner.
-# `rubric` is for the LLM-as-judge (Sunday TODO).
+# `rubric` is for the LLM-as-judge (not yet implemented).
 # All customers and orders referenced here exist in data/*.json.
 
 version: 1

@@ -164,8 +164,8 @@ def render_markdown(run: dict[str, Any]) -> str:
         f"- Mean tool F1: {run['summary']['mean_tool_f1']}\n"
         f"- Judge: {run['summary']['judge_status']}\n\n"
         f"{table}\n\n"
-        f"LLM-as-judge is a TODO until you implement "
-        f"`shopping_agent.evals.judge.judge_case`. Tool-match is a deterministic "
+        f"LLM-as-judge is a TODO until "
+        f"`shopping_agent.evals.judge.judge_case` is implemented. Tool-match is a deterministic "
         f"baseline (expected tool names vs actual).\n"
     )
 

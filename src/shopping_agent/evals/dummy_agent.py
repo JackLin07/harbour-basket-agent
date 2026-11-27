@@ -2,7 +2,7 @@
 
 This is a keyword router over the real backend — *not* an LLM agent. It exists
 so `make eval` produces a report on day one. Replace it with ShoppingAgent
-once you implement the loop (`--agent real`).
+once the loop is implemented (`--agent real`).
 """
 
 from __future__ import annotations

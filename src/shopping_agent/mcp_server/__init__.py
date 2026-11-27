@@ -1,1 +1,1 @@
-"""MCP server that exposes the shopping tools. Weekend TODO."""
+"""MCP server that exposes the shopping tools. Not yet implemented."""

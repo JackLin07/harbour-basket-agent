@@ -1,7 +1,7 @@
 """Lightweight tracing hook the agent loop can call.
 
-This is implemented (not a TODO) so you can record traces on Saturday without
-standing up a vendor platform. In production you would export the same events
+This is implemented (not a TODO) so traces can be recorded without
+standing up a vendor platform. In production the same events would be exported
 to OpenTelemetry / Azure AI Foundry tracing / LangSmith-style tooling.
 
 Usage inside the loop:

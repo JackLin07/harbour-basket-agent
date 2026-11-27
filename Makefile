@@ -11,9 +11,9 @@ help:
 	@echo "  install-dev   Install package plus pytest/ruff (and optional extras)"
 	@echo "  lint          Run ruff check"
 	@echo "  test          Run pytest"
-	@echo "  eval          Run the eval harness (dummy agent until you wire yours)"
+	@echo "  eval          Run the eval harness (dummy agent until the LLM agent is wired)"
 	@echo "  run           Launch the CLI"
-	@echo "  mcp           Start the MCP server stub (TODO until you implement it)"
+	@echo "  mcp           Start the MCP server stub (not yet implemented)"
 	@echo "  docker-build  Build the Docker image"
 	@echo "  clean         Remove venv and caches"
 

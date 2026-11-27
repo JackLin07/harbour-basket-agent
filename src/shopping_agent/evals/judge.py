@@ -1,6 +1,6 @@
 """LLM-as-judge stub.
 
-TODO (Sunday morning): send the case, the agent transcript, and the rubric to a
+TODO: send the case, the agent transcript, and the rubric to a
 stronger model and return a structured verdict.
 
 Official guidance (verified):
@@ -13,7 +13,7 @@ Practical tips from those docs:
   - Ask the judge to reason first, then emit a structured score (e.g. JSON
     with pass: bool, score: 0-5, and a one-sentence reason).
   - Prefer pass/fail plus a short justification over a fuzzy 1-10 scale.
-  - Calibrate against a handful of hand-labelled cases before you trust it.
+  - Calibrate against a handful of hand-labelled cases before relying on it.
   - Watch for verbosity bias (judges prefer longer answers).
 
 Until this is implemented, the runner still scores *tool-call agreement*
@@ -53,7 +53,7 @@ def judge_case(
     log, and result_text; call `client.complete`; parse JSON from the reply.
     """
     raise JudgeNotImplementedError(
-        "LLM-as-judge is a Sunday TODO. Implement judge_case() in "
+        "LLM-as-judge is not yet implemented. Implement judge_case() in "
         "shopping_agent/evals/judge.py. The harness already records tool-call "
         "agreement without it."
     )

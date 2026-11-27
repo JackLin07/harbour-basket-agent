@@ -14,7 +14,6 @@ evals/results/*
 !evals/results/.gitkeep
 tests
 docs
-WEEKEND_PLAN.md
 *.md
 !README.md
 .DS_Store

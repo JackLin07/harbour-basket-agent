@@ -1,4 +1,4 @@
-"""Placeholder tests for the weekend agent implementation."""
+"""Placeholder tests for the agent implementation."""
 
 import pytest
 
@@ -11,7 +11,7 @@ from shopping_agent.rag.retriever import InMemoryRetriever
 
 
 @pytest.mark.agent
-@pytest.mark.xfail(reason="Weekend TODO: implement ShoppingAgent.run()", strict=False)
+@pytest.mark.xfail(reason="not yet implemented", strict=False)
 def test_agent_can_answer_a_simple_search(service):
     agent = ShoppingAgent(service=service, customer_id="CUST-1001")
     result = agent.run("I want some ripe avocados.")
@@ -21,7 +21,7 @@ def test_agent_can_answer_a_simple_search(service):
 
 
 @pytest.mark.agent
-@pytest.mark.skip(reason="Weekend TODO: fill TOOL_SCHEMAS and execute_tool()")
+@pytest.mark.skip(reason="not yet implemented")
 def test_tool_schemas_are_registered():
     assert len(TOOL_SCHEMAS) >= 3
     names = []
@@ -34,7 +34,7 @@ def test_tool_schemas_are_registered():
 
 
 @pytest.mark.agent
-@pytest.mark.skip(reason="Weekend TODO: implement execute_tool()")
+@pytest.mark.skip(reason="not yet implemented")
 def test_execute_search_tool(service):
     raw = execute_tool(
         "search_products",
@@ -46,7 +46,7 @@ def test_execute_search_tool(service):
 
 
 @pytest.mark.agent
-@pytest.mark.skip(reason="Weekend TODO: implement InMemoryRetriever")
+@pytest.mark.skip(reason="not yet implemented")
 def test_retriever_finds_delivery_policy(service):
     retriever = InMemoryRetriever(HashingEmbedder(), service=service).build()
     hits = retriever.retrieve("when is delivery free?", top_k=3, source="policy")
@@ -55,7 +55,7 @@ def test_retriever_finds_delivery_policy(service):
 
 
 @pytest.mark.agent
-@pytest.mark.skip(reason="Weekend TODO: implement the MCP server wrapper")
+@pytest.mark.skip(reason="not yet implemented")
 def test_mcp_server_builds():
     server = build_server(ShoppingService.default())
     assert server is not None

@@ -1,25 +1,37 @@
 # Harbour Basket shopping assistant
 
-A weekend portfolio project: a **hand-written** grocery shopping agent over a
-fictional Australian supermarket catalogue. Built as a demonstration for the
-Coles **AI Engineer – AI Commerce** role.
+I'm building a **hand-written** grocery shopping agent over a fictional
+Australian supermarket catalogue. The aim is an AI commerce shopping assistant
+that can help a customer find products, build a basket, check an order, and
+log a missing-item or refund issue — without inventing prices, stock,
+allergens, or policy.
 
-The agent helps a customer find products, build a basket, check an order, and
-log a missing-item or refund issue. It is **not** affiliated with any real
-retailer. All catalogue data, prices, customers, orders, and policies are
-synthetic — see [`data/SYNTHETIC_DATA.md`](data/SYNTHETIC_DATA.md).
+It is **not** affiliated with any real retailer. All catalogue data, prices,
+customers, orders, and policies are synthetic — see
+[`data/SYNTHETIC_DATA.md`](data/SYNTHETIC_DATA.md).
 
-> Status: the **backend, data, eval harness, Docker, and CI** are ready.
-> The agent loop, tool schemas, RAG retriever, MCP server, guardrails, and
-> LLM-as-judge are intentionally left as clear TODOs so the interesting work
-> is yours this weekend. Follow [`WEEKEND_PLAN.md`](WEEKEND_PLAN.md).
+## Status
+
+Work in progress: backend, synthetic data, eval harness, tracing and CI are
+done; agent loop, tool calling, RAG retriever, MCP server and LLM-as-judge
+are in progress.
 
 ## Pitch
 
-<!-- TODO: 3–4 sentences in your own words. What does this agent do, and why
-did you build it this way? Mention tool use, RAG, MCP, and evals. -->
+Harbour Basket is my take on an AI commerce shopping assistant: a customer
+should be able to ask for products in ordinary language, get answers grounded
+in a real catalogue and store policy, and take simple actions like adding to
+a basket or logging a missing item.
 
-TODO: write a short pitch after the weekend build.
+I'm writing the agent loop by hand, with no LangChain or LangGraph, so the
+tool-calling path stays inspectable. Tools will talk to a tested service
+layer rather than to JSON files, which is closer to how a production agent
+would call internal APIs. Retrieval is reserved for semantic and policy
+questions; structured filters such as dietary tags, allergens, price and
+stock stay in the catalogue search API. I'm holding the project to production
+habits as I build: CI, evals as tests, tracing, guardrails, and a
+provider-agnostic LLM client that already supports OpenAI, xAI Grok and Azure
+OpenAI configuration.
 
 ## Quick start
 
@@ -42,7 +54,7 @@ make test          # backend tests
 make eval          # eval harness with a dummy (non-LLM) agent
 ```
 
-To run the real agent once you implement it:
+To run the LLM agent once the loop is wired:
 
 ```bash
 cp .env.example .env
@@ -66,16 +78,16 @@ XAI_API_KEY=your-key
 ```
 
 `get_provider_endpoint()` in `src/shopping_agent/llm/client.py` fills in
-`base_url=https://api.x.ai/v1`, the key, and the model. When you implement
-the weekend TODO, construct the official OpenAI SDK client with those values —
-one implementation covers both OpenAI and Grok.
+`base_url=https://api.x.ai/v1`, the key, and the model. When wiring the LLM
+client, construct the official OpenAI SDK client with those values — one
+implementation covers both OpenAI and Grok.
 
 Defaults were taken from [xAI models](https://docs.x.ai/docs/models):
 `grok-4.20-non-reasoning` is the documented high-speed, non-reasoning alias
 ($1.25 / $2.50 per 1M tokens); `grok-4.7` is the flagship judge model
 ($2.00 / $6.00 per 1M). To run the optional CI eval job on Grok, add an
 `XAI_API_KEY` repository secret (Settings → Secrets and variables → Actions).
-If that is the only chat key present, CI sets `LLM_PROVIDER=xai` for you.
+If that is the only chat key present, CI sets `LLM_PROVIDER=xai` automatically.
 
 ## Architecture
 
@@ -86,7 +98,7 @@ flowchart LR
         Host[MCP host]
     end
 
-    subgraph agent [Weekend TODOs]
+    subgraph agent [In progress]
         Loop[Hand-written agent loop]
         Guard[Guardrails]
         Tools[Tool schemas]
@@ -95,7 +107,7 @@ flowchart LR
         Judge[LLM-as-judge]
     end
 
-    subgraph ready [Already implemented]
+    subgraph ready [Done]
         LLM[LLM client interface]
         Svc[ShoppingService]
         Cat[Catalogue search]
@@ -127,7 +139,7 @@ flowchart LR
 
 The important design choice: **tools talk to a real service layer**, not to
 JSON files. That is closer to how a production agent would call internal APIs,
-and it is why the backend is fully tested before you write the loop.
+and it is why the backend is fully tested before the loop is written.
 
 ## Project layout
 
@@ -137,20 +149,17 @@ evals/test_cases.yaml  30 eval cases + rubrics
 evals/results/         latest.md / latest.json (generated)
 src/shopping_agent/
   backend/             catalogue, cart, orders, issues, ShoppingService
-  agent/               loop, tools, guardrails          ← TODO
-  rag/                 chunks + cosine helpers; retriever TODO
+  agent/               loop, tools, guardrails          ← in progress
+  rag/                 chunks + cosine helpers; retriever in progress
   llm/                 provider-agnostic client interface (stub)
-  mcp_server/          official MCP SDK stub            ← TODO
-  evals/               runner + dummy agent; judge TODO
+  mcp_server/          official MCP SDK stub            ← in progress
+  evals/               runner + dummy agent; judge in progress
   tracing.py           JSONL / stderr tracer (ready to hook up)
   cli.py               search / cart / orders / chat
 tests/                 backend tests + skipped agent placeholders
 ```
 
 ## Design trade-offs
-
-<!-- TODO: rewrite this in your own words after you make the choices. The
-bullets below are starting points, not the final write-up. -->
 
 - **No LangChain / LangGraph.** A 20-line `while` loop is easier to explain in
   an interview than a framework graph, and it matches "I understand the
@@ -165,7 +174,8 @@ bullets below are starting points, not the final write-up. -->
 - **Provider-agnostic LLM wrapper.** The loop depends on `LLMClient.complete()`
   so switching OpenAI, xAI (Grok), Azure OpenAI, or Anthropic is a factory change.
 - **Evals before polish.** Tool-call agreement is scored even before the
-  LLM-as-judge is implemented, so you can iterate on Saturday afternoon.
+  LLM-as-judge is implemented, so the harness can run against a dummy agent
+  today and against the real loop once it lands.
 
 ## Eval results
 
@@ -174,19 +184,12 @@ catalogue constraints, basket building, order status, issues/refunds, policy
 questions, out-of-scope, and prompt-injection).
 
 Run `make eval` (dummy agent) or
-`python -m shopping_agent.evals.runner --agent real` after your loop works.
+`python -m shopping_agent.evals.runner --agent real` once the agent loop is wired.
 
-| id | title | tool match | tool F1 | judge |
-|----|-------|------------|---------|-------|
-| TODO | paste from `evals/results/latest.md` after you run the real agent | | | |
-
-<!-- TODO: add 3 bullets on what failed and what you changed. Interviewers
-care more about this than a perfect score. -->
+**Results coming soon.** Scores will be pasted here from `evals/results/latest.md`
+after the real agent is run against the 30-case suite.
 
 ## What I would do in production
-
-<!-- TODO: expand in your own words. Talking points below are aligned with
-the job listing (Azure AKS, Cosmos DB, AI Foundry, evals, tracing). -->
 
 - **Serving:** package this API + the MCP/HTTP transport, deploy to
   **Azure AKS**. Readiness probes, horizontal pod autoscaling on in-flight

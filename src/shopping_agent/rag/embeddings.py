@@ -1,13 +1,13 @@
 """Embedding helpers and notes on which backend to pick.
 
-Implemented for you:
+Already implemented:
   - l2_normalize and cosine_similarity (numpy)
   - EmbeddingClient protocol
-  - HashingEmbedder: a *toy* offline baseline so you can unit-wire the retriever
+  - HashingEmbedder: a *toy* offline baseline so the retriever can be wired
     without downloading a model or paying for an API. Do not present this as
-    your RAG solution in the README — swap it for a real embedder.
+    the RAG solution in the README — swap it for a real embedder.
 
-Choose one real backend (notes below) and implement encode() over the weekend.
+Choose one real backend (notes below) and implement encode().
 
 1) sentence-transformers (local, free, no key)
    Official quickstart: https://sbert.net/docs/quickstart.html
@@ -24,10 +24,10 @@ Choose one real backend (notes below) and implement encode() over the weekend.
 3) Azure OpenAI embeddings (relevant to the Coles listing: AI Foundry)
    Same API shape, but you point the client at AZURE_OPENAI_ENDPOINT and an
    embedding deployment name. Nice to mention in the README even if you demo
-   with (1) or (2) locally.
+   with (1) or (2) in the local demo.
 
 Cosine search over ~200 short chunks does not need a vector database. A numpy
-matrix is enough for the weekend. In production you would use Azure AI Search
+matrix is enough at this scale. In production, use Azure AI Search
 or Cosmos DB vector index — leave that for the "what I would do in production"
 README section.
 """
@@ -93,5 +93,5 @@ class HashingEmbedder:
         return l2_normalize(matrix)
 
 
-# TODO (weekend): implement SentenceTransformerEmbedder and/or OpenAIEmbedder
+# TODO: implement SentenceTransformerEmbedder and/or OpenAIEmbedder
 # and a factory build_embedder(settings) similar to shopping_agent.llm.build_client.

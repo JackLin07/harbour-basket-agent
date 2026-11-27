@@ -1,4 +1,4 @@
-"""In-memory retriever. Weekend TODO — signatures and algorithm notes only.
+"""In-memory retriever. Not yet implemented — signatures and algorithm notes only.
 
 Algorithm to implement in InMemoryRetriever:
 

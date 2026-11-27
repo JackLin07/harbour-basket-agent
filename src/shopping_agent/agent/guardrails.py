@@ -1,6 +1,6 @@
 """Input and output guardrails.
 
-TODO (weekend): implement the checks sketched below and call them from the agent
+TODO: implement the checks sketched below and call them from the agent
 loop *before* the first LLM call (input) and *before* returning the final reply
 (output). Keep this module free of provider-specific code.
 

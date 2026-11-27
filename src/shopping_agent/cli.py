@@ -3,8 +3,7 @@
 Subcommands `search`, `cart`, `orders`, and `issues` talk to the backend
 directly so you can explore the synthetic data without an API key.
 
-`chat` is the weekend hook: it should call ShoppingAgent.run() once you
-implement the loop.
+`chat` should call ShoppingAgent.run() once the loop is implemented.
 """
 
 from __future__ import annotations
@@ -59,7 +58,7 @@ def build_parser() -> argparse.ArgumentParser:
     issue.add_argument("--order-id")
     issue.add_argument("--type", dest="issue_type", default="other")
 
-    chat = sub.add_parser("chat", help="Talk to the agent (TODO until you implement the loop).")
+    chat = sub.add_parser("chat", help="Talk to the agent (not yet implemented).")
     chat.add_argument("message")
     return parser
 

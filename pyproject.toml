@@ -1,7 +1,7 @@
 [project]
 name = "harbour-basket-agent"
 version = "0.1.0"
-description = "Weekend portfolio scaffold: a hand-written grocery shopping assistant agent over synthetic Australian supermarket data."
+description = "A hand-written grocery shopping assistant agent over synthetic Australian supermarket data."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
@@ -40,7 +40,7 @@ testpaths = ["tests"]
 pythonpath = ["src"]
 addopts = "-q"
 markers = [
-    "agent: tests that require the weekend agent implementation",
+    "agent: tests that require the agent implementation",
 ]
 
 [tool.ruff]

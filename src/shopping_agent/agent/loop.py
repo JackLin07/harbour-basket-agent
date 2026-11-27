@@ -1,6 +1,6 @@
 """Hand-written agent loop. No LangChain / LangGraph.
 
-TODO (Saturday): implement ShoppingAgent.run() as a simple while-loop:
+TODO: implement ShoppingAgent.run() as a simple while-loop:
 
     messages = [system, user]
     for _ in range(max_iters):
@@ -11,12 +11,12 @@ TODO (Saturday): implement ShoppingAgent.run() as a simple while-loop:
             result = execute_tool(call.name, call.arguments, service=self.service, customer_id=...)
             messages.append(tool result)
             collected.append(...)
-    # If you hit max_iters, return a graceful "I could not finish" message.
+    # If the loop hits max_iters, return a graceful "I could not finish" message.
 
-Hook tracing (shopping_agent.tracing) around each LLM and tool call so Sunday's
-evals have a trace to show.
+Hook tracing (shopping_agent.tracing) around each LLM and tool call so evals
+have a trace to inspect.
 
-System prompt ideas (write your own in SYSTEM_PROMPT below):
+System prompt ideas (draft in SYSTEM_PROMPT below):
   - You are a grocery shopping assistant for Harbour Basket, a *fictional*
     Australian supermarket. Data is synthetic.
   - Use tools for catalogue, cart, orders, issues, and policy questions.
@@ -52,7 +52,7 @@ class AgentResult:
 
 
 class ShoppingAgent:
-    """Weekend implementation target. The eval harness calls `run()`."""
+    """The eval harness calls `run()` once the loop is implemented."""
 
     def __init__(
         self,
@@ -73,6 +73,4 @@ class ShoppingAgent:
         Also call check_input / check_output from agent.guardrails.
         """
         _ = (user_message, customer_id or self.customer_id)
-        raise NotImplementedError(
-            "ShoppingAgent.run() is the main weekend task. See src/shopping_agent/agent/loop.py and WEEKEND_PLAN.md."
-        )
+        raise NotImplementedError("ShoppingAgent.run() is not yet implemented. See src/shopping_agent/agent/loop.py.")

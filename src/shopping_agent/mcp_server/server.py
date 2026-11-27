@@ -1,6 +1,6 @@
 """MCP server stub using the official Python SDK.
 
-TODO (Saturday evening): wrap the same tool functions you write in
+TODO: wrap the same tool functions from
 shopping_agent.agent.tools as MCP tools, so the assistant can be hosted as a
 local MCP server (stdio). The job listing specifically mentions MCP.
 

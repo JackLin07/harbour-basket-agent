@@ -23,7 +23,7 @@ evals/results/*.json
 evals/results/*.md
 !evals/results/.gitkeep
 
-# RAG indexes you may build over the weekend
+# Local RAG indexes
 .cache/
 data/indexes/
 

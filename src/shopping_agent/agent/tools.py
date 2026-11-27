@@ -1,17 +1,17 @@
 """Tool schemas and dispatch.
 
-TODO (weekend, Saturday morning/afternoon):
+TODO:
   1. Fill TOOL_SCHEMAS with JSON Schema that matches an OpenAI/Anthropic function tool.
   2. Implement `execute_tool` so each tool name calls ShoppingService and returns JSON.
   3. Keep the schemas and the Python callables in sync.
 
-Suggested tools (align with the job ad + the weekend plan):
+Suggested tools (align with the job ad):
   - search_products(query, category?, dietary_tags?, allergen_free?, max_price?, limit?)
   - add_to_cart(product_id, quantity=1)
   - view_cart()
   - check_order(order_id?)           # list recent orders if order_id omitted
   - report_issue(description, order_id?, issue_type?, product_ids?)
-  - retrieve_knowledge(query)        # wrap your RAG retriever for policies + product blurbs
+  - retrieve_knowledge(query)        # wrap the RAG retriever for policies + product blurbs
 
 The service layer is already done, so a tool body should look like:
 
@@ -53,7 +53,7 @@ TOOL_SCHEMAS: list[dict[str, Any]] = []
 
 
 class ToolNotImplementedError(NotImplementedError):
-    """Raised until the weekend tool dispatch is filled in."""
+    """Raised until tool dispatch is implemented."""
 
 
 def execute_tool(name: str, arguments: dict[str, Any], *, service: ShoppingService, customer_id: str) -> str:
@@ -67,7 +67,7 @@ def execute_tool(name: str, arguments: dict[str, Any], *, service: ShoppingServi
         f"Tool {name!r} is not implemented yet. Wire it to ShoppingService in "
         "shopping_agent/agent/tools.py (see the docstring for the suggested set)."
     )
-    # Example once you start:
+    # Example dispatch:
     # try:
     #     if name == "search_products":
     #         return json.dumps(service.search_products(**arguments))

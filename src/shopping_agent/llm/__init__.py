@@ -1,4 +1,4 @@
-"""Provider-agnostic LLM client interface. Implementations are a weekend TODO."""
+"""Provider-agnostic LLM client interface. Implementations are in progress."""
 
 from shopping_agent.llm.client import (
     LLMClient,

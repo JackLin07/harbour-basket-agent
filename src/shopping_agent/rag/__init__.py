@@ -1,4 +1,4 @@
-"""RAG helpers. Chunk loading is done; the retriever is a weekend TODO."""
+"""RAG helpers. Chunk loading is done; the retriever is not yet implemented."""
 
 from shopping_agent.rag.chunks import DocumentChunk, load_corpus
 from shopping_agent.rag.embeddings import cosine_similarity, l2_normalize

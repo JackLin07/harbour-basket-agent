@@ -1,6 +1,6 @@
 """LLM client wrapper interface.
 
-TODO (weekend): implement one real provider, then keep this interface so swapping
+TODO: implement one real provider, then keep this interface so swapping
 OpenAI / xAI (Grok) / Azure OpenAI / Anthropic is a factory change, not an
 agent-loop change.
 
@@ -46,7 +46,7 @@ def get_provider_endpoint(settings: Settings | None = None) -> ProviderEndpoint:
     """Return base_url, API key, and model names for the configured provider.
 
     Supported OpenAI-compatible providers: ``openai`` (default) and ``xai``.
-    Chat/tool-calling itself is still a weekend TODO — this helper only
+    Chat/tool-calling itself is still a TODO — this helper only
     selects the endpoint so one OpenAI SDK client can target either host.
     """
     settings = settings or get_settings()
@@ -119,7 +119,7 @@ class LLMClient(Protocol):
 
 
 class UnconfiguredLLMClient:
-    """Placeholder so the rest of the scaffolding imports cleanly without a key."""
+    """Placeholder so the package imports cleanly without a key."""
 
     def complete(
         self,
@@ -134,12 +134,12 @@ class UnconfiguredLLMClient:
             "(OPENAI_API_KEY or XAI_API_KEY), and implement OpenAILLMClient / "
             "AzureOpenAILLMClient / AnthropicLLMClient in shopping_agent/llm/client.py. "
             "The OpenAI SDK works for both OpenAI and xAI (Grok) through base_url — "
-            "see get_provider_endpoint(), the TODO block below, and WEEKEND_PLAN.md."
+            "see get_provider_endpoint() and the TODO block below."
         )
 
 
 # ---------------------------------------------------------------------------
-# TODO (weekend): implement one of these and return it from build_client().
+# TODO: implement one of these and return it from build_client().
 #
 # class OpenAILLMClient:
 #     def __init__(self, settings: Settings) -> None:
@@ -168,7 +168,7 @@ class UnconfiguredLLMClient:
 
 
 def build_client(settings: Settings | None = None) -> LLMClient:
-    """Factory. Returns a real client once you implement one; otherwise a stub."""
+    """Factory. Returns a real client once one is implemented; otherwise a stub."""
     settings = settings or get_settings()
     # TODO: if settings.normalized_provider in {"openai", "xai"}:
     #     endpoint = get_provider_endpoint(settings)
